@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "worldtrip"
+version = "0.1.0"
+description = "World trip planning engine: sourced price ledger, tree x graph optimisation, deterministic judge, MCP + PWA"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = []
+
+[project.scripts]
+worldtrip = "worldtrip.cli:main"
+
+[tool.setuptools]
+packages = ["worldtrip"]
+
+[tool.setuptools.package-data]
+worldtrip = ["data/*.json"]

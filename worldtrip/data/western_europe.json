@@ -1,0 +1,1307 @@
+{
+ "region": "western_europe",
+ "researched_on": "2026-10-01",
+ "cities": [
+  {
+   "id": "paris",
+   "name": "Paris",
+   "name_ko": "파리",
+   "country": "FR",
+   "country_name": "France",
+   "country_ko": "프랑스",
+   "tz": "Europe/Paris",
+   "currency": "EUR",
+   "lat": 48.86,
+   "lon": 2.35,
+   "min_nights": null,
+   "best_months": [],
+   "lodging": {
+    "hostel": {
+     "min": 21,
+     "max": 35,
+     "currency": "EUR",
+     "unit": "per night",
+     "source": {
+      "url": "https://www.nomadicmick.com/cheap-hostels-in-paris/",
+      "level": "snippet",
+      "date": "2026",
+      "query": "Paris hostel dorm bed price per night 2026 average"
+     }
+    },
+    "mid": {
+     "min": 130,
+     "max": 220,
+     "currency": "EUR",
+     "unit": "per night",
+     "source": {
+      "url": "https://lavie.maison/blog/hotel-paris-prices/",
+      "level": "snippet",
+      "date": "2026",
+      "query": "Paris average hotel price per night 2026 mid-range 3 star luxury"
+     }
+    },
+    "upscale": {
+     "min": 250,
+     "max": 800,
+     "currency": "EUR",
+     "unit": "per night",
+     "source": {
+      "url": "https://lavie.maison/blog/hotel-paris-prices/",
+      "level": "snippet",
+      "date": "2026",
+      "query": "Paris average hotel price per night 2026 mid-range 3 star luxury"
+     }
+    }
+   },
+   "food_per_day": {
+    "budget": {
+     "min": 28,
+     "max": 28,
+     "currency": "EUR",
+     "unit": "per day",
+     "source": {
+      "url": "https://www.budgetyourtrip.com/france/paris",
+      "level": "snippet",
+      "date": "2026",
+      "query": "budgetyourtrip Paris meals per day budget mid-range luxury"
+     }
+    },
+    "mid": {
+     "min": 72,
+     "max": 72,
+     "currency": "EUR",
+     "unit": "per day",
+     "source": {
+      "url": "https://www.budgetyourtrip.com/france/paris",
+      "level": "snippet",
+      "date": "2026",
+      "query": "budgetyourtrip Paris meals per day budget mid-range luxury"
+     }
+    },
+    "comfort": {
+     "min": 188,
+     "max": 188,
+     "currency": "EUR",
+     "unit": "per day",
+     "source": {
+      "url": "https://www.budgetyourtrip.com/france/paris",
+      "level": "snippet",
+      "date": "2026",
+      "query": "budgetyourtrip Paris meals per day budget mid-range luxury"
+     }
+    }
+   },
+   "transit": {
+    "day_cost": {
+     "min": 12.3,
+     "max": 12.3,
+     "currency": "EUR",
+     "unit": "per day",
+     "source": {
+      "url": "https://www.european-traveler.com/france/guide-to-paris-public-transport-tickets-and-prices-for-visitors/",
+      "level": "snippet",
+      "date": "2026",
+      "query": "Paris metro ticket price 2026 t+ €2.50 Navigo Easy day pass Paris Visite"
+     }
+    },
+    "pass": {
+     "name": "Paris Visite (1-5일권)",
+     "price": {
+      "min": 30.6,
+      "max": 78.0,
+      "currency": "EUR",
+      "unit": "per pass",
+      "source": {
+       "url": "https://www.european-traveler.com/france/guide-to-paris-public-transport-tickets-and-prices-for-visitors/",
+       "level": "snippet",
+       "date": "2026",
+       "query": "Paris metro ticket price 2026 t+ €2.50 Navigo Easy day pass Paris Visite"
+      }
+     },
+     "covers": "1일 €30.60 · 2일 €45.40 · 3일 €63.80 · 5일 €78.00 (Navigo Easy/스마트폰에 탑재)"
+    },
+    "airport": {
+     "name": "RER B (CDG) - Ticket Paris Région <> Aéroports",
+     "price": {
+      "min": 14,
+      "max": 14,
+      "currency": "EUR",
+      "unit": "per ride",
+      "source": {
+       "url": "https://parisbytrain.com/paris-airport-train-ticket/",
+       "level": "snippet",
+       "date": "2026-01",
+       "query": "Paris CDG airport to city RER B ticket price 2026 €14"
+      }
+     },
+     "minutes": null
+    },
+    "notes_ko": "2025년 종이 t+ 티켓이 폐지되어 Metro-Train-RER 1회권(€2.55)·Bus-Tram 1회권(€2.05)을 Navigo Easy 카드(€2) 또는 휴대폰에 충전해 써야 한다. 공항 티켓(€14)도 종이로는 안 판다."
+   },
+   "attractions": [
+    {
+     "id": "louvre",
+     "name": "Musée du Louvre",
+     "name_ko": "루브르 박물관",
+     "tags": [
+      "art",
+      "history",
+      "culture"
+     ],
+     "price": {
+      "min": 22,
+      "max": 32,
+      "currency": "EUR",
+      "unit": "per ticket",
+      "source": {
+       "url": "https://skiptheline.tickets/france/paris/louvre/",
+       "level": "snippet",
+       "date": "2026-01",
+       "query": "Louvre ticket price 2026 non-EU visitors €32"
+      }
+     },
+     "hours": 3,
+     "reservation": true,
+     "tip_ko": "2026-01-14부터 비EU 방문객은 €32(EU €22). 모나리자 앞은 늘 붐비므로 비수기·평일·이른/늦은 시간이 그나마 낫다."
+    },
+    {
+     "id": "eiffel-tower",
+     "name": "Eiffel Tower",
+     "name_ko": "에펠탑",
+     "tags": [
+      "views",
+      "architecture"
+     ],
+     "price": {
+      "min": 28.0,
+      "max": 36.7,
+      "currency": "EUR",
+      "unit": "per ticket",
+      "source": {
+       "url": "https://eiffeltower-tickets.paris/en/summit-tickets/",
+       "level": "snippet",
+       "date": "2026",
+       "query": "Eiffel Tower ticket prices 2026 adult summit lift"
+      }
+     },
+     "hours": 2,
+     "reservation": true,
+     "tip_ko": "정상까지 엘리베이터 성인 €36.70, 2층까지 계단(674계단)+정상 엘리베이터는 €28.00. 가격은 결제 시 공식 사이트에서 재확인."
+    },
+    {
+     "id": "musee-dorsay",
+     "name": "Musée d'Orsay",
+     "name_ko": "오르세 미술관",
+     "tags": [
+      "art",
+      "architecture"
+     ],
+     "price": {
+      "min": 14,
+      "max": 18,
+      "currency": "EUR",
+      "unit": "per ticket",
+      "source": {
+       "url": "https://www.cityzore.com/blog/kid-friendly/musee-dorsay-ticket-prices-and-visiting-tips-2026",
+       "level": "snippet",
+       "date": "2026",
+       "query": "Musée d'Orsay ticket price 2026 adult"
+      }
+     },
+     "hours": 2.5,
+     "reservation": false,
+     "tip_ko": "출처마다 €14~18로 엇갈림. 매월 첫 일요일 무료, 목요일 18시 이후 야간 할인(€12) 언급 있음. 온라인 예매 시 우선 입구."
+    },
+    {
+     "id": "sainte-chapelle",
+     "name": "Sainte-Chapelle",
+     "name_ko": "생트샤펠",
+     "tags": [
+      "religion",
+      "architecture",
+      "history",
+      "art"
+     ],
+     "price": {
+      "min": 16,
+      "max": 22,
+      "currency": "EUR",
+      "unit": "per ticket",
+      "source": {
+       "url": "https://www.artvisitguide.com/sainte-chapelle-tickets-guide/",
+       "level": "snippet",
+       "date": "2026",
+       "query": "Sainte-Chapelle ticket price 2026 and Arc de Triomphe rooftop ticket price 2026"
+      }
+     },
+     "hours": 1,
+     "reservation": true,
+     "tip_ko": "비EEA €22, EEA 거주자 €16. 콩시에르쥬리 통합권(비EEA €30)도 있다. 법원 단지 안이라 공항식 보안검색을 거친다."
+    },
+    {
+     "id": "arc-de-triomphe",
+     "name": "Arc de Triomphe (rooftop)",
+     "name_ko": "개선문 전망대",
+     "tags": [
+      "views",
+      "history"
+     ],
+     "price": {
+      "min": 16,
+      "max": 22,
+      "currency": "EUR",
+      "unit": "per ticket",
+      "source": {
+       "url": "https://arcdetriompherooftop.org/entrance-fee/",
+       "level": "snippet",
+       "date": "2026",
+       "query": "Sainte-Chapelle ticket price 2026 and Arc de Triomphe rooftop ticket price 2026"
+      }
+     },
+     "hours": 1,
+     "reservation": false,
+     "tip_ko": "4~9월은 €22(수요일 €16), 10~3월은 €16. 옥상 테라스 포함."
+    },
+    {
+     "id": "sacre-coeur",
+     "name": "Sacré-Cœur Basilica",
+     "name_ko": "사크레쾨르 대성당",
+     "tags": [
+      "religion",
+      "views",
+      "architecture"
+     ],
+     "price": {
+      "min": 0,
+      "max": 8,
+      "currency": "EUR",
+      "unit": "per ticket",
+      "source": {
+       "url": "https://officialattractiontickets.com/en/attraction/sacre-coeur/",
+       "level": "snippet",
+       "date": "2026",
+       "query": "Sacré-Cœur basilica free entry dome price 2026"
+      }
+     },
+     "hours": 1.5,
+     "reservation": false,
+     "tip_ko": "성당 내부는 무료(06:30~22:30). 돔(300계단, 엘리베이터 없음)은 성인 €8, 현장 판매만."
+    }
+   ],
+   "restaurants": [
+    {
+     "name": "Bouillon Chartier (Grands Boulevards)",
+     "kind": "bouillon (French classic)",
+     "tier": "budget",
+     "price": {
+      "min": 20,
+      "max": 25,
+      "currency": "EUR",
+      "unit": "per person",
+      "source": {
+       "url": "https://www.parisunlocked.com/food/restaurants/review-bouillon-chartier-paris/",
+       "level": "snippet",
+       "date": "2026",
+       "query": "Bouillon Chartier prices menu cost per person 2026"
+      }
+     },
+     "tip_ko": "예약을 안 받아 줄이 길다. 일찍 가고, 회전이 빨라 서두르는 분위기를 감안할 것."
+    }
+   ],
+   "activities": [
+    {
+     "name": "Bateaux-Mouches Seine sightseeing cruise",
+     "name_ko": "바토무슈 센강 유람선",
+     "tags": [
+      "views",
+      "culture"
+     ],
+     "price": {
+      "min": 17,
+      "max": 19,
+      "currency": "EUR",
+      "unit": "per ticket",
+      "source": {
+       "url": "https://www.cometoparis.com/rates/bateau-mouche-paris-s1089",
+       "level": "snippet",
+       "date": "2026",
+       "query": "Bateaux Mouches Seine cruise ticket price 2026 adult"
+      }
+     },
+     "hours": 1.1
+    },
+    {
+     "name": "Palace of Versailles (Passport ticket) day trip",
+     "name_ko": "베르사유 궁전 (패스포트 티켓)",
+     "tags": [
+      "history",
+      "architecture",
+      "art"
+     ],
+     "price": {
+      "min": 25,
+      "max": 35,
+      "currency": "EUR",
+      "unit": "per ticket",
+      "source": {
+       "url": "https://www.artvisitguide.com/versailles-tickets-guide/",
+       "level": "snippet",
+       "date": "2026",
+       "query": "Palace of Versailles passport ticket price 2026"
+      }
+     },
+     "hours": 5
+    }
+   ],
+   "concerns": [
+    {
+     "topic": "scam",
+     "text_ko": "사크레쾨르 계단·몽마르트르에서 손목에 팔찌를 묶고 돈을 요구하는 '우정 팔찌' 사기, 랜드마크 근처에서 서명을 받는 척하며 동료가 소매치기하는 '청원서' 사기가 흔하다.",
+     "source": {
+      "url": "https://tabiji.ai/scams/paris/",
+      "level": "snippet",
+      "date": "2026",
+      "query": "Paris tourist scams 2026 petition friendship bracelet pickpockets metro warning"
+     }
+    },
+    {
+     "topic": "safety",
+     "text_ko": "소매치기는 지하철과 에펠탑·루브르·사크레쾨르 등 관광지, 특히 메트로 1·4호선에서 가장 흔하다. 강력범죄보다 소매치기가 주된 위험이다.",
+     "source": {
+      "url": "https://tripscity.com/paris-safety-guide-2025/",
+      "level": "snippet",
+      "date": "2026",
+      "query": "Paris tourist scams 2026 petition friendship bracelet pickpockets metro warning"
+     }
+    },
+    {
+     "topic": "tipping",
+     "text_ko": "계산서에 'service compris'(봉사료 포함)가 법적으로 들어가 있어 팁은 의무가 아니다. 카페는 잔돈 올림, 식당은 1인 €2~3 정도면 충분하다.",
+     "source": {
+      "url": "https://www.merveil-paris.com/en/blog/do-you-tip-in-paris",
+      "level": "snippet",
+      "date": "2026",
+      "query": "Paris restaurant service compris tipping etiquette 2026 travelers"
+     }
+    },
+    {
+     "topic": "transport",
+     "text_ko": "종이 t+ 티켓이 2025년에 없어져 Navigo Easy 카드나 휴대폰 충전이 필요하다. 공항 RER B 티켓(€14)도 종이로는 살 수 없다.",
+     "source": {
+      "url": "https://parisbytrain.com/paris-airport-train-ticket/",
+      "level": "snippet",
+      "date": "2026",
+      "query": "Paris CDG airport to city RER B ticket price 2026 €14"
+     }
+    }
+   ],
+   "reviews": [
+    {
+     "about": "Sainte-Chapelle",
+     "sentiment": "pos",
+     "summary_ko": "스테인드글라스가 세계 최고 수준이라는 극찬. 파리에서 가장 아름다운 스테인드글라스라는 평.",
+     "source": {
+      "url": "https://www.tripadvisor.com/ShowUserReviews-g187147-d190202-r143583046-Sainte_Chapelle-Paris_Ile_de_France.html",
+      "level": "snippet",
+      "date": "unknown",
+      "query": "tripadvisor Sainte-Chapelle reviews stained glass queue security"
+     }
+    },
+    {
+     "about": "Sainte-Chapelle",
+     "sentiment": "mixed",
+     "summary_ko": "표 구하기가 까다롭고, 예약 시간 뒤에도 보안검색 줄 때문에 30분 넘게 기다렸다는 후기.",
+     "source": {
+      "url": "https://www.tripadvisor.com/ShowUserReviews-g187147-d190202-r1008353023-Sainte_Chapelle-Paris_Ile_de_France.html",
+      "level": "snippet",
+      "date": "unknown",
+      "query": "tripadvisor Sainte-Chapelle reviews stained glass queue security"
+     }
+    },
+    {
+     "about": "Bouillon Chartier",
+     "sentiment": "mixed",
+     "summary_ko": "가격 대비 훌륭하고 분위기가 좋지만, 줄이 길어 일찍 가야 하고 식사 후 빨리 나가 달라는 재촉을 받았다는 후기.",
+     "source": {
+      "url": "https://www.tripadvisor.com/ShowUserReviews-g187147-d714938-r573390796-Le_Bouillon_Chartier-Paris_Ile_de_France.html",
+      "level": "snippet",
+      "date": "unknown",
+      "query": "tripadvisor Bouillon Chartier reviews queue rushed service"
+     }
+    },
+    {
+     "about": "Bouillon Chartier",
+     "sentiment": "neg",
+     "summary_ko": "관광객 함정이니 피하라는 혹평 리뷰(제목 기준).",
+     "source": {
+      "url": "https://www.tripadvisor.com/ShowUserReviews-g187147-d714938-r479514716-Le_Bouillon_Chartier_Grands_Boulevards-Paris_Ile_de_France.html",
+      "level": "snippet",
+      "date": "unknown",
+      "query": "tripadvisor Bouillon Chartier reviews queue rushed service"
+     }
+    }
+   ]
+  },
+  {
+   "id": "london",
+   "name": "London",
+   "name_ko": "런던",
+   "country": "GB",
+   "country_name": "United Kingdom",
+   "country_ko": "영국",
+   "tz": "Europe/London",
+   "currency": "GBP",
+   "lat": 51.51,
+   "lon": -0.13,
+   "min_nights": null,
+   "best_months": [],
+   "lodging": {
+    "hostel": {
+     "min": 18,
+     "max": 40,
+     "currency": "GBP",
+     "unit": "per night",
+     "source": {
+      "url": "https://www.hostelz.com/how-to-choose-a-hostel-in-london-england",
+      "level": "snippet",
+      "date": "2026",
+      "query": "London hostel dorm price per night 2026 and hotel average price mid-range luxury"
+     }
+    },
+    "mid": {
+     "min": 100,
+     "max": 200,
+     "currency": "GBP",
+     "unit": "per night",
+     "source": {
+      "url": "https://radicalstorage.com/travel/is-london-expensive/",
+      "level": "snippet",
+      "date": "2026",
+      "query": "London hostel dorm price per night 2026 and hotel average price mid-range luxury"
+     }
+    },
+    "upscale": {
+     "min": 250,
+     "max": 500,
+     "currency": "GBP",
+     "unit": "per night",
+     "source": {
+      "url": "https://radicalstorage.com/travel/is-london-expensive/",
+      "level": "snippet",
+      "date": "2026",
+      "query": "London hostel dorm price per night 2026 and hotel average price mid-range luxury"
+     }
+    }
+   },
+   "food_per_day": {
+    "budget": {
+     "min": 23,
+     "max": 23,
+     "currency": "GBP",
+     "unit": "per day",
+     "source": {
+      "url": "https://www.budgetyourtrip.com/united-kingdom/london",
+      "level": "snippet",
+      "date": "2026",
+      "query": "budgetyourtrip London meals per day budget mid-range luxury"
+     }
+    },
+    "mid": {
+     "min": 59,
+     "max": 59,
+     "currency": "GBP",
+     "unit": "per day",
+     "source": {
+      "url": "https://www.budgetyourtrip.com/united-kingdom/london",
+      "level": "snippet",
+      "date": "2026",
+      "query": "budgetyourtrip London meals per day budget mid-range luxury"
+     }
+    },
+    "comfort": {
+     "min": 157,
+     "max": 157,
+     "currency": "GBP",
+     "unit": "per day",
+     "source": {
+      "url": "https://www.budgetyourtrip.com/united-kingdom/london",
+      "level": "snippet",
+      "date": "2026",
+      "query": "budgetyourtrip London meals per day budget mid-range luxury"
+     }
+    }
+   },
+   "transit": {
+    "day_cost": {
+     "min": 8.9,
+     "max": 8.9,
+     "currency": "GBP",
+     "unit": "per day",
+     "source": {
+      "url": "https://www.londontravelgeek.co.uk/articles/london-public-transport-costs-and-fares/",
+      "level": "snippet",
+      "date": "2026",
+      "query": "London Underground daily cap 2026 zones 1-2 contactless price Heathrow Elizabeth line fare Piccadilly"
+     }
+    },
+    "pass": null,
+    "airport": {
+     "name": "Piccadilly line (Heathrow-Zone 1) / Elizabeth line",
+     "price": {
+      "min": 5.9,
+      "max": 15.5,
+      "currency": "GBP",
+      "unit": "per ride",
+      "source": {
+       "url": "https://dmairporttransfers.co.uk/blog/london/the-2026-price-battle-piccadilly-vs-elizabeth-vs-heathrow-express/",
+       "level": "snippet",
+       "date": "2026-03",
+       "query": "Heathrow to central London Piccadilly line fare 2026 £5.60 Elizabeth line £13"
+      }
+     },
+     "minutes": null
+    },
+    "notes_ko": "컨택리스 카드/Oyster로 타면 1~2존 하루 상한 £8.90(2026 동결), 1~6존 상한 £16.30. 같은 카드를 계속 써야 상한이 적용된다. 엘리자베스 라인 히드로-1존은 2026-03-01부터 £15.50."
+   },
+   "attractions": [
+    {
+     "id": "tower-of-london",
+     "name": "Tower of London",
+     "name_ko": "런던 탑",
+     "tags": [
+      "history",
+      "architecture"
+     ],
+     "price": {
+      "min": 34.8,
+      "max": 39.8,
+      "currency": "GBP",
+      "unit": "per ticket",
+      "source": {
+       "url": "https://toweroflondonengland.org/entrance-fee/",
+       "level": "snippet",
+       "date": "2026-06",
+       "query": "Tower of London ticket price 2026 adult"
+      }
+     },
+     "hours": 3,
+     "reservation": true,
+     "tip_ko": "온라인 £34.80, 현장 £39.80. 크라운 주얼 줄은 오후에 길어지니 오전에 먼저 보라는 조언이 많다."
+    },
+    {
+     "id": "westminster-abbey",
+     "name": "Westminster Abbey",
+     "name_ko": "웨스트민스터 사원",
+     "tags": [
+      "religion",
+      "history",
+      "architecture"
+     ],
+     "price": {
+      "min": 31,
+      "max": 31,
+      "currency": "GBP",
+      "unit": "per ticket",
+      "source": {
+       "url": "https://www.storyhunt.io/en/articles/westminster-abbey",
+       "level": "snippet",
+       "date": "2026",
+       "query": "Westminster Abbey ticket price 2026 adult and St Paul's Cathedral ticket price 2026"
+      }
+     },
+     "hours": 2,
+     "reservation": true,
+     "tip_ko": "성인 £31, 시간 지정 입장이라 2주 전쯤 예약 권장."
+    },
+    {
+     "id": "st-pauls",
+     "name": "St Paul's Cathedral",
+     "name_ko": "세인트 폴 대성당",
+     "tags": [
+      "religion",
+      "architecture",
+      "views"
+     ],
+     "price": {
+      "min": 27,
+      "max": 27,
+      "currency": "GBP",
+      "unit": "per ticket",
+      "source": {
+       "url": "https://www.stpauls.co.uk/planning-your-visit",
+       "level": "snippet",
+       "date": "2026",
+       "query": "Westminster Abbey ticket price 2026 adult and St Paul's Cathedral ticket price 2026"
+      }
+     },
+     "hours": 2,
+     "reservation": false,
+     "tip_ko": "성인 £27, 어린이 £10.50."
+    },
+    {
+     "id": "british-museum",
+     "name": "British Museum",
+     "name_ko": "대영박물관",
+     "tags": [
+      "history",
+      "art",
+      "culture"
+     ],
+     "price": {
+      "min": 0,
+      "max": 0,
+      "currency": "GBP",
+      "unit": "per ticket",
+      "source": {
+       "url": "https://www.britishmuseum.org/visit",
+       "level": "snippet",
+       "date": "2026",
+       "query": "British Museum free entry National Gallery free 2026 booking"
+      }
+     },
+     "hours": 3,
+     "reservation": false,
+     "tip_ko": "상설전 무료. 주말·방학엔 무료 시간지정 티켓 사전 예약 권장, 없어도 현장 입장 가능."
+    },
+    {
+     "id": "national-gallery",
+     "name": "National Gallery",
+     "name_ko": "내셔널 갤러리",
+     "tags": [
+      "art"
+     ],
+     "price": {
+      "min": 0,
+      "max": 0,
+      "currency": "GBP",
+      "unit": "per ticket",
+      "source": {
+       "url": "https://what2book.com/london/national-gallery",
+       "level": "snippet",
+       "date": "2026",
+       "query": "British Museum free entry National Gallery free 2026 booking"
+      }
+     },
+     "hours": 2,
+     "reservation": false,
+     "tip_ko": "상설전 무료, 예약 불필요(무료 시간지정 티켓은 있으면 편함)."
+    },
+    {
+     "id": "london-eye",
+     "name": "London Eye",
+     "name_ko": "런던 아이",
+     "tags": [
+      "views",
+      "family"
+     ],
+     "price": {
+      "min": 29,
+      "max": 42,
+      "currency": "GBP",
+      "unit": "per ticket",
+      "source": {
+       "url": "https://londonticketsandtours.com/london-eye/entrance-fee/",
+       "level": "snippet",
+       "date": "2026",
+       "query": "London Eye ticket price 2026 standard adult"
+      }
+     },
+     "hours": 1,
+     "reservation": true,
+     "tip_ko": "온라인 사전 예매가 싸다(£29~42), 당일 현장은 £39 안팎."
+    }
+   ],
+   "restaurants": [
+    {
+     "name": "Dishoom (Covent Garden / King's Cross)",
+     "kind": "Bombay cafe (Indian)",
+     "tier": "mid",
+     "price": {
+      "min": 20,
+      "max": 30,
+      "currency": "GBP",
+      "unit": "per person",
+      "source": {
+       "url": "https://passportpalate.com/dishoom-london-uk-must-try-dishes-prices-2025/",
+       "level": "snippet",
+       "date": "2025",
+       "query": "Dishoom London price per person queue reviews tripadvisor"
+      }
+     },
+     "tip_ko": "줄이 거의 항상 있다(킹스크로스는 1.5시간 이상 사례). 줄 서는 동안 차이를 주기도 한다."
+    },
+    {
+     "name": "Borough Market",
+     "kind": "food market / street food",
+     "tier": "budget",
+     "price": {
+      "min": 10,
+      "max": 15,
+      "currency": "GBP",
+      "unit": "per person",
+      "source": {
+       "url": "https://trendsunveiled.co.uk/borough-market-london-guide-2026-best-food-stalls-opening-times-insider-tips/",
+       "level": "snippet",
+       "date": "2026",
+       "query": "Borough Market London food prices 2026 how much to spend"
+      }
+     },
+     "tip_ko": "스트리트푸드 한 끼 £6~12. 다른 시장보다 비싸졌다는 평이 있으니 둘러보고 고르고, 평일 이른 시간이 덜 붐빈다."
+    }
+   ],
+   "activities": [
+    {
+     "name": "Stonehenge coach day trip from London",
+     "name_ko": "런던 출발 스톤헨지 당일 투어",
+     "tags": [
+      "history",
+      "nature"
+     ],
+     "price": {
+      "min": 61.75,
+      "max": 89.0,
+      "currency": "GBP",
+      "unit": "per person",
+      "source": {
+       "url": "https://www.visitlondon.com/things-to-do/sightseeing/sightseeing-tours/day-trips-from-london/best-stonehenge-tours",
+       "level": "snippet",
+       "date": "2026",
+       "query": "Stonehenge day trip from London tour price 2026 and Warner Bros Studio Tour price 2026"
+      }
+     },
+     "hours": 8
+    },
+    {
+     "name": "Warner Bros. Studio Tour London - The Making of Harry Potter",
+     "name_ko": "워너브라더스 해리포터 스튜디오 투어",
+     "tags": [
+      "family",
+      "culture"
+     ],
+     "price": {
+      "min": 58.5,
+      "max": 58.5,
+      "currency": "GBP",
+      "unit": "per ticket",
+      "source": {
+       "url": "https://www.wbstudiotour.co.uk/tickets/",
+       "level": "snippet",
+       "date": "2026",
+       "query": "Stonehenge day trip from London tour price 2026 and Warner Bros Studio Tour price 2026"
+      }
+     },
+     "hours": 4
+    }
+   ],
+   "concerns": [
+    {
+     "topic": "safety",
+     "text_ko": "휴대폰 날치기(모페드·자전거)가 빠르게 늘고 있다. 옥스퍼드 스트리트, 레스터 스퀘어, 런던 아이 근처 사우스뱅크에서 길가에 폰을 들고 있지 말 것.",
+     "source": {
+      "url": "https://www.isitsafetovisit.com/cities/london",
+      "level": "snippet",
+      "date": "2026",
+      "query": "London tourist scams 2026 pickpockets Oxford Street phone snatching Westminster Bridge shell game"
+     }
+    },
+    {
+     "topic": "scam",
+     "text_ko": "웨스트민스터 다리의 야바위(컵·공 게임)는 조작이고 이기는 사람은 바람잡이다. 구경꾼을 노린 소매치기도 함께 붙는다.",
+     "source": {
+      "url": "https://tabiji.ai/scams/london/",
+      "level": "snippet",
+      "date": "2026",
+      "query": "London tourist scams 2026 pickpockets Oxford Street phone snatching Westminster Bridge shell game"
+     }
+    },
+    {
+     "topic": "transport",
+     "text_ko": "히드로-시내 엘리자베스 라인이 2026-03-01부터 £15.50으로 크게 올랐다. 피카딜리 라인(£5.90)이 훨씬 싸다.",
+     "source": {
+      "url": "https://dmairporttransfers.co.uk/blog/london/the-2026-price-battle-piccadilly-vs-elizabeth-vs-heathrow-express/",
+      "level": "snippet",
+      "date": "2026-03",
+      "query": "Heathrow to central London Piccadilly line fare 2026 £5.60 Elizabeth line £13"
+     }
+    }
+   ],
+   "reviews": [
+    {
+     "about": "Tower of London - Yeoman Warder tour",
+     "sentiment": "pos",
+     "summary_ko": "비피터(요먼 워더) 투어가 최고였다는 후기. 해설이 재미있고 역사를 생생하게 전한다는 평.",
+     "source": {
+      "url": "https://www.tripadvisor.com/ShowUserReviews-g186338-d187547-r980849230-Tower_of_London-London_England.html",
+      "level": "snippet",
+      "date": "unknown",
+      "query": "tripadvisor Tower of London review Yeoman Warder tour Crown Jewels queue"
+     }
+    },
+    {
+     "about": "Tower of London - Yeoman Warder tour",
+     "sentiment": "neg",
+     "summary_ko": "요먼 워더 투어는 굳이 할 필요 없다는 후기. 마이크 없이 100명 가까운 큰 무리라 뒤쪽에선 잘 안 들린다는 불만.",
+     "source": {
+      "url": "https://www.tripadvisor.com/ShowUserReviews-g186338-d187547-r954002616-Tower_of_London-London_England.html",
+      "level": "snippet",
+      "date": "unknown",
+      "query": "tripadvisor Tower of London review Yeoman Warder tour Crown Jewels queue"
+     }
+    },
+    {
+     "about": "Dishoom Covent Garden",
+     "sentiment": "pos",
+     "summary_ko": "항상 줄이 있지만 기다릴 가치가 있다는 후기. 대기 중 음료를 내주었다는 언급.",
+     "source": {
+      "url": "https://www.tripadvisor.com/ShowUserReviews-g186338-d1863498-r171185848-Dishoom_Covent_Garden-London_England.html",
+      "level": "snippet",
+      "date": "unknown",
+      "query": "Dishoom London price per person queue reviews tripadvisor"
+     }
+    },
+    {
+     "about": "Borough Market",
+     "sentiment": "neg",
+     "summary_ko": "가격이 너무 비싸다는 불만 리뷰(제목 'Those prices!!!!' 기준).",
+     "source": {
+      "url": "https://www.tripadvisor.co.uk/ShowUserReviews-g186338-d260500-r907866449-Borough_Market-London_England.html",
+      "level": "snippet",
+      "date": "unknown",
+      "query": "Borough Market London food prices 2026 how much to spend"
+     }
+    }
+   ]
+  },
+  {
+   "id": "amsterdam",
+   "name": "Amsterdam",
+   "name_ko": "암스테르담",
+   "country": "NL",
+   "country_name": "Netherlands",
+   "country_ko": "네덜란드",
+   "tz": "Europe/Amsterdam",
+   "currency": "EUR",
+   "lat": 52.37,
+   "lon": 4.9,
+   "min_nights": null,
+   "best_months": [],
+   "lodging": {
+    "hostel": {
+     "min": 30,
+     "max": 60,
+     "currency": "EUR",
+     "unit": "per night",
+     "source": {
+      "url": "https://www.amsterdamtourism.org/amsterdam-hostels-backpackers-guide/",
+      "level": "snippet",
+      "date": "2026",
+      "query": "Amsterdam hostel dorm price per night 2026 hotel average price mid-range tourist tax 12.5%"
+     }
+    },
+    "mid": {
+     "min": 150,
+     "max": 250,
+     "currency": "EUR",
+     "unit": "per night",
+     "source": {
+      "url": "https://radicalstorage.com/travel/is-amsterdam-expensive/",
+      "level": "snippet",
+      "date": "2026",
+      "query": "Amsterdam hostel dorm price per night 2026 hotel average price mid-range tourist tax 12.5%"
+     }
+    },
+    "upscale": null
+   },
+   "food_per_day": {
+    "budget": {
+     "min": 32,
+     "max": 32,
+     "currency": "EUR",
+     "unit": "per day",
+     "source": {
+      "url": "https://www.budgetyourtrip.com/netherlands/amsterdam",
+      "level": "snippet",
+      "date": "2026",
+      "query": "budgetyourtrip Amsterdam meals food per day budget luxury"
+     }
+    },
+    "mid": {
+     "min": 80,
+     "max": 80,
+     "currency": "EUR",
+     "unit": "per day",
+     "source": {
+      "url": "https://www.budgetyourtrip.com/netherlands/amsterdam",
+      "level": "snippet",
+      "date": "2026",
+      "query": "budgetyourtrip Amsterdam meals food per day budget luxury"
+     }
+    },
+    "comfort": {
+     "min": 194,
+     "max": 194,
+     "currency": "EUR",
+     "unit": "per day",
+     "source": {
+      "url": "https://www.budgetyourtrip.com/netherlands/amsterdam",
+      "level": "snippet",
+      "date": "2026",
+      "query": "budgetyourtrip Amsterdam meals food per day budget luxury"
+     }
+    }
+   },
+   "transit": {
+    "day_cost": {
+     "min": 10.0,
+     "max": 10.0,
+     "currency": "EUR",
+     "unit": "per day",
+     "source": {
+      "url": "https://www.gvb.nl/en/prices",
+      "level": "snippet",
+      "date": "2026",
+      "query": "GVB day ticket price 2026 Amsterdam 24 hour and Schiphol train to Amsterdam Centraal fare 2026"
+     }
+    },
+    "pass": {
+     "name": "GVB Day ticket (24h)",
+     "price": {
+      "min": 10.0,
+      "max": 10.0,
+      "currency": "EUR",
+      "unit": "per pass",
+      "source": {
+       "url": "https://www.gvb.nl/en/prices",
+       "level": "snippet",
+       "date": "2026",
+       "query": "GVB day ticket price 2026 Amsterdam 24 hour and Schiphol train to Amsterdam Centraal fare 2026"
+      }
+     },
+     "covers": "GVB 트램·버스·메트로, 첫 체크인부터 24시간"
+    },
+    "airport": {
+     "name": "NS train Schiphol - Amsterdam Centraal",
+     "price": {
+      "min": 5.5,
+      "max": 5.5,
+      "currency": "EUR",
+      "unit": "per ride",
+      "source": {
+       "url": "https://www.rijdendetreinen.nl/en/tickets/schiphol-airport/amsterdam-centraal",
+       "level": "snippet",
+       "date": "2026",
+       "query": "GVB day ticket price 2026 Amsterdam 24 hour and Schiphol train to Amsterdam Centraal fare 2026"
+      }
+     },
+     "minutes": null
+    },
+    "notes_ko": "스히폴-중앙역 2등석 e티켓 €5.50(1등석 €9.90), 일회용 종이표는 €1.60 추가."
+   },
+   "attractions": [
+    {
+     "id": "rijksmuseum",
+     "name": "Rijksmuseum",
+     "name_ko": "레이크스뮤지엄 (국립미술관)",
+     "tags": [
+      "art",
+      "history"
+     ],
+     "price": {
+      "min": 25,
+      "max": 25,
+      "currency": "EUR",
+      "unit": "per ticket",
+      "source": {
+       "url": "https://www.artvisitguide.com/rijksmuseum-tickets-guide/",
+       "level": "snippet",
+       "date": "2026",
+       "query": "Rijksmuseum ticket price 2026 adult and Van Gogh Museum ticket price 2026"
+      }
+     },
+     "hours": 3,
+     "reservation": true,
+     "tip_ko": "온라인 전용·시간지정 입장, 성인 €25(일부 출처 €27)."
+    },
+    {
+     "id": "van-gogh-museum",
+     "name": "Van Gogh Museum",
+     "name_ko": "반 고흐 미술관",
+     "tags": [
+      "art"
+     ],
+     "price": {
+      "min": 25,
+      "max": 25,
+      "currency": "EUR",
+      "unit": "per ticket",
+      "source": {
+       "url": "https://www.artvisitguide.com/van-gogh-museum-tickets-guide/",
+       "level": "snippet",
+       "date": "2026",
+       "query": "Rijksmuseum ticket price 2026 adult and Van Gogh Museum ticket price 2026"
+      }
+     },
+     "hours": 2,
+     "reservation": true,
+     "tip_ko": "현장 구매 불가, 모든 방문객이 시간지정 사전 예약 필요. 18세 미만 무료."
+    },
+    {
+     "id": "anne-frank-house",
+     "name": "Anne Frank House",
+     "name_ko": "안네 프랑크의 집",
+     "tags": [
+      "history",
+      "culture"
+     ],
+     "price": {
+      "min": 16.5,
+      "max": 16.5,
+      "currency": "EUR",
+      "unit": "per ticket",
+      "source": {
+       "url": "https://annefranktours.com/anne-frank-house-ticket-prices/",
+       "level": "snippet",
+       "date": "2026",
+       "query": "Anne Frank House ticket price 2026 tickets released 6 weeks in advance"
+      }
+     },
+     "hours": 1.5,
+     "reservation": true,
+     "tip_ko": "매주 화요일 10:00(현지)에 6주 뒤 한 주치 표가 풀리고 몇 분 만에 매진된다. 수수료 €1 포함."
+    }
+   ],
+   "restaurants": [],
+   "activities": [],
+   "concerns": [
+    {
+     "topic": "reservation",
+     "text_ko": "안네 프랑크의 집 표는 6주 전 화요일 오전 10시에 풀려 몇 분 만에 매진된다. 현장 판매가 없으니 미리 알람을 맞춰 둬야 한다.",
+     "source": {
+      "url": "https://amsterdamexperiences.nl/anne-frank-house-ticket-date-calculator/",
+      "level": "snippet",
+      "date": "2026",
+      "query": "Anne Frank House ticket price 2026 tickets released 6 weeks in advance"
+     }
+    },
+    {
+     "topic": "reservation",
+     "text_ko": "반 고흐 미술관은 현장 구매가 전혀 없고 레이크스뮤지엄도 온라인 시간지정 전용이라 즉흥 방문이 어렵다.",
+     "source": {
+      "url": "https://www.artvisitguide.com/van-gogh-museum-tickets-guide/",
+      "level": "snippet",
+      "date": "2026",
+      "query": "Rijksmuseum ticket price 2026 adult and Van Gogh Museum ticket price 2026"
+     }
+    },
+    {
+     "topic": "cash",
+     "text_ko": "2026년 숙박 관광세가 숙박비의 12.5%이고 숙박 부가세도 9%에서 21%로 올라 세금 합계가 약 33.5%다. 표시 요금보다 청구액이 크게 늘 수 있다.",
+     "source": {
+      "url": "https://www.amsterdamtourism.org/amsterdam-tourist-tax-hidden-costs/",
+      "level": "snippet",
+      "date": "2026",
+      "query": "Amsterdam hostel dorm price per night 2026 hotel average price mid-range tourist tax 12.5%"
+     }
+    }
+   ],
+   "reviews": []
+  },
+  {
+   "id": "barcelona",
+   "name": "Barcelona",
+   "name_ko": "바르셀로나",
+   "country": "ES",
+   "country_name": "Spain",
+   "country_ko": "스페인",
+   "tz": "Europe/Madrid",
+   "currency": "EUR",
+   "lat": 41.39,
+   "lon": 2.17,
+   "min_nights": null,
+   "best_months": [],
+   "lodging": {
+    "hostel": null,
+    "mid": null,
+    "upscale": null
+   },
+   "food_per_day": {
+    "budget": {
+     "min": 24,
+     "max": 24,
+     "currency": "EUR",
+     "unit": "per day",
+     "source": {
+      "url": "https://www.budgetyourtrip.com/spain/barcelona",
+      "level": "snippet",
+      "date": "2026",
+      "query": "budgetyourtrip Barcelona meals food per day budget luxury"
+     }
+    },
+    "mid": {
+     "min": 58,
+     "max": 58,
+     "currency": "EUR",
+     "unit": "per day",
+     "source": {
+      "url": "https://www.budgetyourtrip.com/spain/barcelona",
+      "level": "snippet",
+      "date": "2026",
+      "query": "budgetyourtrip Barcelona meals food per day budget luxury"
+     }
+    },
+    "comfort": {
+     "min": 136,
+     "max": 136,
+     "currency": "EUR",
+     "unit": "per day",
+     "source": {
+      "url": "https://www.budgetyourtrip.com/spain/barcelona",
+      "level": "snippet",
+      "date": "2026",
+      "query": "budgetyourtrip Barcelona meals food per day budget luxury"
+     }
+    }
+   },
+   "transit": {
+    "day_cost": null,
+    "pass": null,
+    "airport": null,
+    "notes_ko": "조사 예산 소진으로 교통 요금 미조사."
+   },
+   "attractions": [
+    {
+     "id": "sagrada-familia",
+     "name": "Basílica de la Sagrada Família",
+     "name_ko": "사그라다 파밀리아",
+     "tags": [
+      "architecture",
+      "religion",
+      "art"
+     ],
+     "price": {
+      "min": 26,
+      "max": 36,
+      "currency": "EUR",
+      "unit": "per ticket",
+      "source": {
+       "url": "https://www.artvisitguide.com/sagrada-familia-tickets-guide/",
+       "level": "snippet",
+       "date": "2026",
+       "query": "Sagrada Familia ticket price 2026 basic ticket towers euros"
+      }
+     },
+     "hours": 2,
+     "reservation": true,
+     "tip_ko": "기본권 €26(오디오가이드 앱 포함), 탑 포함 €36(엘리베이터로 올라가고 계단으로 내려옴). 11세 미만 무료."
+    }
+   ],
+   "restaurants": [],
+   "activities": [],
+   "concerns": [],
+   "reviews": []
+  },
+  {
+   "id": "madrid",
+   "name": "Madrid",
+   "name_ko": "마드리드",
+   "country": "ES",
+   "country_name": "Spain",
+   "country_ko": "스페인",
+   "tz": "Europe/Madrid",
+   "currency": "EUR",
+   "lat": 40.42,
+   "lon": -3.7,
+   "min_nights": null,
+   "best_months": [],
+   "lodging": {
+    "hostel": null,
+    "mid": null,
+    "upscale": null
+   },
+   "food_per_day": {
+    "budget": {
+     "min": 23,
+     "max": 23,
+     "currency": "EUR",
+     "unit": "per day",
+     "source": {
+      "url": "https://www.budgetyourtrip.com/spain/madrid",
+      "level": "snippet",
+      "date": "2026",
+      "query": "budgetyourtrip Madrid meals food per day budget luxury"
+     }
+    },
+    "mid": {
+     "min": 59,
+     "max": 59,
+     "currency": "EUR",
+     "unit": "per day",
+     "source": {
+      "url": "https://www.budgetyourtrip.com/spain/madrid",
+      "level": "snippet",
+      "date": "2026",
+      "query": "budgetyourtrip Madrid meals food per day budget luxury"
+     }
+    },
+    "comfort": {
+     "min": 157,
+     "max": 157,
+     "currency": "EUR",
+     "unit": "per day",
+     "source": {
+      "url": "https://www.budgetyourtrip.com/spain/madrid",
+      "level": "snippet",
+      "date": "2026",
+      "query": "budgetyourtrip Madrid meals food per day budget luxury"
+     }
+    }
+   },
+   "transit": {
+    "day_cost": null,
+    "pass": null,
+    "airport": null,
+    "notes_ko": "조사 예산 소진으로 교통 요금 미조사."
+   },
+   "attractions": [],
+   "restaurants": [],
+   "activities": [],
+   "concerns": [],
+   "reviews": []
+  }
+ ],
+ "edges": [
+  {
+   "from": "paris",
+   "to": "london",
+   "mode": "train",
+   "hours": null,
+   "price": {
+    "min": 39,
+    "max": 245,
+    "currency": "GBP",
+    "unit": "per person",
+    "source": {
+     "url": "https://www.journeyfinder.net/routes/london-to-paris-train",
+     "level": "snippet",
+     "date": "2026",
+     "query": "Eurostar Paris London fare from price 2026 standard one way"
+    }
+   },
+   "frequency_ko": "미확인",
+   "notes_ko": "유로스타 Standard 편도. 90일 전 주중 최저 £39, 4~6주 전 보통 £75~130, 임박 시 £180~230. 금요일 저녁·토요일 오전·공휴일 주말은 40~60% 비쌈. 소요시간·편수는 이번 조사에서 확인 못 함."
+  }
+ ],
+ "gaps": [
+  "WebFetch was blocked by the network egress proxy for every domain tried (louvre.fr, sagradafamilia.org, toureiffel.paris, seat61.com, eurorailtimes.com, fasttracksagradafamilia.com, finestresullarte.info, budgetyourtrip.com, en.wikipedia.org). No source is level 'full'; all are search snippets.",
+  "The session-wide WebSearch budget (200 calls, shared with other agents) ran out mid-research, so Amsterdam was only partly covered and Barcelona and Madrid were barely covered.",
+  "Search tools return one merged summary for many result URLs. Each number is attributed to the result URL whose title or topic best matches it, but that per-URL attribution is approximate. Official sites (Louvre, Eiffel Tower, Sagrada Familia, Eurostar) could not be read directly; the prices come from third-party guide pages.",
+  "Review sentiment for 'Stay clear of this tourist trap' (Bouillon Chartier) and 'Those prices!!!!' (Borough Market) comes from the TripAdvisor review titles shown in search results; the full review text was not read. Review dates are unknown.",
+  "Paris: Orsay price is inconsistent across sources (€14-18). L'As du Fallafel price is inconsistent (old €8 sandwich vs a 2026 menu listing a €19 plate), so it was left out. Only 1 restaurant found (need 3-4). Airport RER B travel minutes not found.",
+  "London: no multi-day transit pass researched (pay-as-you-go cap used). Airport travel minutes not found. Westminster Abbey price varies (£27.13 during a 25 Jun-1 Sep 2026 VAT-discount period vs £31 otherwise).",
+  "Amsterdam: upscale lodging, restaurants, activities (canal cruise, A'DAM Lookout), reviews, airport minutes, bike/cash concerns not researched (search budget exhausted). Only 3 attractions.",
+  "Barcelona: lodging, transit, airport, 4-6 more attractions (Park Güell, Casa Batlló etc.), restaurants, activities, concerns (pickpocketing), and reviews are all missing.",
+  "Madrid: lodging, transit, airport, all attractions (Prado, Royal Palace, Reina Sofía), restaurants, activities, concerns, and reviews are all missing.",
+  "min_nights and best_months were not researched for any city (left null/[]). lat/lon are approximate city-centre coordinates (general knowledge, not prices).",
+  "Edges missing entirely: paris-amsterdam (train), london-amsterdam (Eurostar/flight), paris-barcelona (train), barcelona-madrid (train), paris-madrid (flight). For paris-london, journey time and daily frequency were not found."
+ ]
+}

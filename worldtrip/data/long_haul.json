@@ -1,0 +1,523 @@
+{
+ "region": "long_haul",
+ "researched_on": "2026-10-01",
+ "edges": [
+  {
+   "from": "seoul",
+   "to": "paris",
+   "mode": "flight",
+   "hours": 14.25,
+   "price": {
+    "min": 275,
+    "max": 1215,
+    "currency": "USD",
+    "unit": "per person",
+    "source": {
+     "url": "https://www.expedia.com/lp/flights/icn/cdg/seoul-to-paris",
+     "level": "snippet",
+     "date": "2026-10",
+     "query": "Seoul to Paris one way flight price economy"
+    }
+   },
+   "frequency_ko": "매일 직항(대한항공 주6회 등)",
+   "notes_ko": "검색 요약: 이코노미 편도 대개 $275–$1215. 직항 대한항공 $410~, 에어프랑스 $450~, 경유 Air China $275~. 비행시간은 출처별 12h30–14h25(평균 14h15 표기)."
+  },
+  {
+   "from": "seoul",
+   "to": "london",
+   "mode": "flight",
+   "hours": 14.5,
+   "price": {
+    "min": 220,
+    "max": 1600,
+    "currency": "USD",
+    "unit": "per person",
+    "source": {
+     "url": "https://www.expedia.com/lp/flights/icn/lhr/seoul-to-london",
+     "level": "snippet",
+     "date": "2026-10",
+     "query": "Seoul to London cheap flights one way"
+    }
+   },
+   "frequency_ko": "매일 직항(대한항공·아시아나·버진애틀랜틱)",
+   "notes_ko": "경유(중국동방) 편도 $220–$1250, 직항 대한항공 $450–$1600(검색 요약). 비행시간 13h30–14h50, 대략 14h30."
+  },
+  {
+   "from": "seoul",
+   "to": "rome",
+   "mode": "flight",
+   "hours": 13.2,
+   "price": {
+    "min": 234,
+    "max": 1034,
+    "currency": "USD",
+    "unit": "per person",
+    "source": {
+     "url": "https://expedia.com/lp/flights/icn/fco/seoul-to-rome",
+     "level": "snippet",
+     "date": "2026-10",
+     "query": "Seoul to Rome flights one way price nonstop flight time"
+    }
+   },
+   "frequency_ko": "티웨이 주7회, 대한항공 주3회 직항",
+   "notes_ko": "최저 $234(경유 포함). 상한은 대한항공 직항 '최저가부터 $1,034'(Google Flights 요약) — 성수기 상한 아님. 티웨이 직항 $715~. 최단 13h10."
+  },
+  {
+   "from": "seoul",
+   "to": "prague",
+   "mode": "flight",
+   "hours": 13.2,
+   "price": {
+    "min": 316,
+    "max": 980,
+    "currency": "USD",
+    "unit": "per person",
+    "source": {
+     "url": "https://www.expedia.com/lp/flights/icn/prg/seoul-to-prague",
+     "level": "snippet",
+     "date": "2026-10",
+     "query": "Seoul to Prague flights one way price nonstop Korean Air"
+    }
+   },
+   "frequency_ko": "대한항공 주4회 직항",
+   "notes_ko": "최저 $316(경유). 상한 $980은 Google Flights의 대한항공 직항 최저가 표기; 대한항공 편도 $372~ 표기도 있음(trip.com). 평균 13h13."
+  },
+  {
+   "from": "seoul",
+   "to": "amsterdam",
+   "mode": "flight",
+   "hours": 13.75,
+   "price": {
+    "min": 301,
+    "max": 1568,
+    "currency": "USD",
+    "unit": "per person",
+    "source": {
+     "url": "https://us.trip.com/flights/seoul-to-amsterdam/airfares-sel-ams/",
+     "level": "snippet",
+     "date": "2026-10",
+     "query": "Seoul to Amsterdam flights one way price KLM nonstop"
+    }
+   },
+   "frequency_ko": "KLM 주7회 직항",
+   "notes_ko": "최저 $301(trip.com, 경유 가능). KLM 직항 편도 $749–$1,568(검색 요약, 날짜별). 최단 13h45."
+  },
+  {
+   "from": "seoul",
+   "to": "barcelona",
+   "mode": "flight",
+   "hours": 14.6,
+   "price": {
+    "min": 231,
+    "max": 1051,
+    "currency": "USD",
+    "unit": "per person",
+    "source": {
+     "url": "https://www.skyscanner.com/routes/icn/bcn/incheon-international-to-barcelona.html",
+     "level": "snippet",
+     "date": "2026-10",
+     "query": "Seoul to Barcelona flights one way price nonstop"
+    }
+   },
+   "frequency_ko": "티웨이·아시아나 직항",
+   "notes_ko": "최저 $231(Skyscanner, 경유). 직항 티웨이 $321~$801~, 아시아나 직항 $1,051~(요약). 직항 평균 14h35."
+  },
+  {
+   "from": "seoul",
+   "to": "vienna",
+   "mode": "flight",
+   "hours": 13.0,
+   "price": {
+    "min": 242,
+    "max": 1865,
+    "currency": "USD",
+    "unit": "per person",
+    "source": {
+     "url": "https://www.expedia.com/lp/flights/icn/vie/seoul-to-vienna",
+     "level": "snippet",
+     "date": "2026-10",
+     "query": "Seoul to Vienna flights one way price nonstop"
+    }
+   },
+   "frequency_ko": "대한항공 주4회(월·수·금·일) 직항",
+   "notes_ko": "경유 $242~. 대한항공 직항 편도 대개 $395–$1,865(요약). 약 13시간."
+  },
+  {
+   "from": "seoul",
+   "to": "bangkok",
+   "mode": "flight",
+   "hours": 6.0,
+   "price": {
+    "min": 95,
+    "max": 430,
+    "currency": "USD",
+    "unit": "per person",
+    "source": {
+     "url": "https://www.expedia.com/lp/flights/icn/bkk/seoul-to-bangkok",
+     "level": "snippet",
+     "date": "2026-10",
+     "query": "Seoul to Bangkok flights one way price"
+    }
+   },
+   "frequency_ko": "매일 다수 직항",
+   "notes_ko": "이코노미 편도 대개 $95–$430(요약). 대한항공 $155–$875, 타이항공 $230–$995. 최저 $71~89 표기(Skyscanner). 5h35–6h20."
+  },
+  {
+   "from": "seoul",
+   "to": "hanoi",
+   "mode": "flight",
+   "hours": 4.6,
+   "price": {
+    "min": 59,
+    "max": 152,
+    "currency": "USD",
+    "unit": "per person",
+    "source": {
+     "url": "https://www.skyscanner.com/routes/sela/han/seoul-to-hanoi.html",
+     "level": "snippet",
+     "date": "2026-10",
+     "query": "Seoul to Hanoi flights one way price flight time"
+    }
+   },
+   "frequency_ko": "매일 다수 직항(LCC 포함)",
+   "notes_ko": "최저 $59(Skyscanner 제목). 상한 $152는 9월 평균 편도 운임 표기(요약) — 최대가 아님. 평균 4h38."
+  },
+  {
+   "from": "seoul",
+   "to": "hochiminh",
+   "mode": "flight",
+   "hours": 5.45,
+   "price": {
+    "min": 134,
+    "max": 848,
+    "currency": "USD",
+    "unit": "per person",
+    "source": {
+     "url": "https://www.expedia.com/lp/flights/icn/sgn/seoul-to-ho-chi-minh-city",
+     "level": "snippet",
+     "date": "2026-10",
+     "query": "Seoul to Ho Chi Minh City flights one way price"
+    }
+   },
+   "frequency_ko": "매일 다수 직항(비엣젯 등)",
+   "notes_ko": "편도 대개 $134–$848(요약). 비엣젯 직항 $78~, 최저 $98 표기도 있음. 평균 5h27."
+  },
+  {
+   "from": "seoul",
+   "to": "singapore",
+   "mode": "flight",
+   "hours": 7.0,
+   "price": {
+    "min": 101,
+    "max": 1150,
+    "currency": "USD",
+    "unit": "per person",
+    "source": {
+     "url": "https://www.expedia.com/lp/flights/icn/sin/seoul-to-singapore",
+     "level": "snippet",
+     "date": "2026-10",
+     "query": "Seoul to Singapore flights one way price nonstop"
+    }
+   },
+   "frequency_ko": "매일 직항(싱가포르항공·대한항공·제주항공·스쿠트·티웨이)",
+   "notes_ko": "최저 $101(Expedia 제목). 직항 전형가: 제주 $335–$630, 스쿠트 $360–$810, 대한항공 $510–$960, 싱가포르항공 $540–$1,150. 약 7시간(요약)."
+  },
+  {
+   "from": "tokyo",
+   "to": "paris",
+   "mode": "flight",
+   "hours": 14.5,
+   "price": {
+    "min": 399,
+    "max": 1165,
+    "currency": "USD",
+    "unit": "per person",
+    "source": {
+     "url": "https://www.expedia.com/lp/flights/nrt/cdg/tokyo-to-paris",
+     "level": "snippet",
+     "date": "2026-10",
+     "query": "Tokyo to Paris flights one way price nonstop"
+    }
+   },
+   "frequency_ko": "매일 직항(에어프랑스·JAL·ANA)",
+   "notes_ko": "최저 $399(경유 포함, Expedia NRT-CDG). 상한 $1,165는 JAL 하네다 직항 '~부터' 표기. 항공사별 직항 범위는 $550–$11,640 등 매우 넓음. 에어프랑스 14h30."
+  },
+  {
+   "from": "tokyo",
+   "to": "london",
+   "mode": "flight",
+   "hours": 14.6,
+   "price": {
+    "min": 368,
+    "max": 1900,
+    "currency": "USD",
+    "unit": "per person",
+    "source": {
+     "url": "https://www.skyscanner.com/routes/tyoa/lhr/tokyo-to-london-heathrow.html",
+     "level": "snippet",
+     "date": "2026-10",
+     "query": "Tokyo to London flights one way price nonstop"
+    }
+   },
+   "frequency_ko": "매일 직항(JAL·BA·ANA)",
+   "notes_ko": "최저 $368(Skyscanner, 경유). 직항 편도 BA $1,003, JAL $1,036 사례, BA 직항 전형 $1,378–$1,900(요약). 직항 평균 14h38."
+  },
+  {
+   "from": "bangkok",
+   "to": "london",
+   "mode": "flight",
+   "hours": null,
+   "price": {
+    "min": 212,
+    "max": 1650,
+    "currency": "USD",
+    "unit": "per person",
+    "source": {
+     "url": "https://www.momondo.com/flights/bangkok/london",
+     "level": "snippet",
+     "date": "2026-10",
+     "query": "Bangkok to London flights one way price nonstop"
+    }
+   },
+   "frequency_ko": "직항: 타이항공·EVA(LHR), BA(LGW)",
+   "notes_ko": "최저 $212(momondo, 경유). 직항: 타이항공 $410–$2,750, EVA $515–$2,135, BA 전형 $950–$1,650(요약). 비행시간 미확보(gaps 참조)."
+  },
+  {
+   "from": "bangkok",
+   "to": "paris",
+   "mode": "flight",
+   "hours": 13.25,
+   "price": {
+    "min": 268,
+    "max": 891,
+    "currency": "USD",
+    "unit": "per person",
+    "source": {
+     "url": "https://www.expedia.com/lp/flights/bkk/par/bangkok-to-paris",
+     "level": "snippet",
+     "date": "2026-10",
+     "query": "Bangkok to Paris flights one way price nonstop"
+    }
+   },
+   "frequency_ko": "타이항공 주7회, 에어프랑스 주5회 직항",
+   "notes_ko": "최저 $268(경유). 직항 타이항공 $513~, 에어프랑스 $891~(요약, '~부터' 값). 13h15."
+  },
+  {
+   "from": "singapore",
+   "to": "london",
+   "mode": "flight",
+   "hours": 14.6,
+   "price": {
+    "min": 284,
+    "max": 446,
+    "currency": "USD",
+    "unit": "per person",
+    "source": {
+     "url": "https://www.expedia.com/lp/flights/sin/lhr/singapore-to-london",
+     "level": "snippet",
+     "date": "2026-10",
+     "query": "Singapore to London flights one way price nonstop"
+    }
+   },
+   "frequency_ko": "하루 약 7편 직항(SQ·BA·콴타스)",
+   "notes_ko": "최저 $284(Expedia). 상한 $446은 싱가포르항공 직항 최근 편도 사례(요약) — 성수기 상한 아님. 직항 평균 14h37."
+  },
+  {
+   "from": "singapore",
+   "to": "paris",
+   "mode": "flight",
+   "hours": 13.4,
+   "price": {
+    "min": 313,
+    "max": 973,
+    "currency": "USD",
+    "unit": "per person",
+    "source": {
+     "url": "https://us.trip.com/flights/singapore-to-paris/airfares-sin-par/",
+     "level": "snippet",
+     "date": "2026-10",
+     "query": "Singapore to Paris flights one way price nonstop"
+    }
+   },
+   "frequency_ko": "싱가포르항공 주12회, 에어프랑스 주10회 직항",
+   "notes_ko": "최저 $313(trip.com). 직항 SQ $387~$495 사례, 에어프랑스 $654~, SQ $973~(요약). 평균 13h25, 일부 14h15."
+  },
+  {
+   "from": "taipei",
+   "to": "bangkok",
+   "mode": "flight",
+   "hours": 4.0,
+   "price": {
+    "min": 140,
+    "max": 355,
+    "currency": "USD",
+    "unit": "per person",
+    "source": {
+     "url": "https://www.expedia.com/lp/flights/tpe/bkk/taipei-to-bangkok",
+     "level": "snippet",
+     "date": "2026-10",
+     "query": "Taipei to Bangkok flights one way price"
+    }
+   },
+   "frequency_ko": "주 15회 이상, 매일 다수 직항",
+   "notes_ko": "이코노미 편도 대개 $140–$355(요약). trip.com 최저 $68 표기. 타이·EVA·중화항공 $140–$590. 최단 약 4시간."
+  },
+  {
+   "from": "taipei",
+   "to": "hanoi",
+   "mode": "flight",
+   "hours": 2.9,
+   "price": {
+    "min": 72,
+    "max": 158,
+    "currency": "USD",
+    "unit": "per person",
+    "source": {
+     "url": "https://www.kayak.com/flight-routes/Taipei-Taiwan-Taoyuan-Intl-TPE/Hanoi-Noibai-HAN",
+     "level": "snippet",
+     "date": "2026-10",
+     "query": "Taipei to Hanoi flights one way price"
+    }
+   },
+   "frequency_ko": "매일 직항(비엣젯 등)",
+   "notes_ko": "최저 $72(Kayak 제목, 비엣젯). 상한 $158은 momondo 최근 72시간 최저가 표기. 최단 2h55."
+  },
+  {
+   "from": "tokyo",
+   "to": "bangkok",
+   "mode": "flight",
+   "hours": 6.6,
+   "price": {
+    "min": 135,
+    "max": 525,
+    "currency": "USD",
+    "unit": "per person",
+    "source": {
+     "url": "https://www.expedia.com/lp/flights/nrt/bkk/tokyo-to-bangkok",
+     "level": "snippet",
+     "date": "2026-10",
+     "query": "Tokyo to Bangkok flights one way price"
+    }
+   },
+   "frequency_ko": "매일 다수 직항(타이·JAL·ANA 등)",
+   "notes_ko": "이코노미 편도 대개 $135–$525(요약). 타이항공 직항 $250–$1,320. 평균 6h35, 최단 6h20."
+  },
+  {
+   "from": "tokyo",
+   "to": "singapore",
+   "mode": "flight",
+   "hours": 7.25,
+   "price": {
+    "min": 150,
+    "max": 1275,
+    "currency": "USD",
+    "unit": "per person",
+    "source": {
+     "url": "https://www.expedia.com/lp/flights/hnd/sin/tokyo-to-singapore",
+     "level": "snippet",
+     "date": "2026-10",
+     "query": "Tokyo to Singapore flights one way price"
+    }
+   },
+   "frequency_ko": "매일 직항(JAL·SQ·ANA)",
+   "notes_ko": "이코노미 편도 대개 $150–$1,275(요약). JAL $325–$2,015, SQ $280–$2,205. 최단 직항 7h15."
+  }
+ ],
+ "fx": {
+  "base": "KRW",
+  "rates": {
+   "USD": {
+    "krw": 1352.8,
+    "source": {
+     "url": "https://www.mt.co.kr/economy/2026/09/30/2026093015352291632",
+     "level": "snippet",
+     "date": "2026-09-30",
+     "query": "원달러 환율 마감 2026년 9월 30일"
+    }
+   },
+   "EUR": {
+    "krw": 1536.1,
+    "source": {
+     "url": "https://www.snmnews.com/news/articleView.html?idxno=575340",
+     "level": "snippet",
+     "date": "2026-09-30",
+     "query": "9월 30일 원/달러 환율 1,352.80원 엔화 유로 위안화 철강금속신문"
+    }
+   },
+   "JPY": {
+    "krw": 8.6273,
+    "source": {
+     "url": "https://www.snmnews.com/news/articleView.html?idxno=575340",
+     "level": "snippet",
+     "date": "2026-09-30",
+     "query": "9월 30일 원/달러 환율 1,352.80원 엔화 유로 위안화 철강금속신문"
+    }
+   },
+   "GBP": {
+    "krw": 1791.27,
+    "source": {
+     "url": "https://pluang.com/en/tools/currency-converter/gbp-krw",
+     "level": "snippet",
+     "date": "2026-09-30",
+     "query": "GBP KRW exchange rate September 2026 pound won"
+    }
+   },
+   "TWD": {
+    "krw": 42.37,
+    "source": {
+     "url": "https://pluang.com/en/tools/currency-converter/krw-twd",
+     "level": "snippet",
+     "date": "2026-09-30",
+     "query": "TWD to KRW exchange rate September 30 2026"
+    }
+   },
+   "THB": {
+    "krw": 40.44,
+    "source": {
+     "url": "https://pluang.com/en/tools/currency-converter/krw-thb",
+     "level": "snippet",
+     "date": "2026-09-29",
+     "query": "THB to KRW exchange rate September 30 2026 baht won"
+    }
+   },
+   "VND": {
+    "krw": 0.052299,
+    "source": {
+     "url": "https://pluang.com/en/tools/currency-converter/vnd-krw",
+     "level": "snippet",
+     "date": "2026-09-26",
+     "query": "VND to KRW exchange rate September 2026 100 dong won"
+    }
+   },
+   "SGD": {
+    "krw": 1061.52,
+    "source": {
+     "url": "https://www.investing.com/currencies/sgd-krw-historical-data",
+     "level": "snippet",
+     "date": "2026-09-30",
+     "query": "SGD to KRW exchange rate September 30 2026"
+    }
+   },
+   "CZK": {
+    "krw": 63.8797,
+    "source": {
+     "url": "https://pluang.com/en/tools/currency-converter/czk-krw",
+     "level": "snippet",
+     "date": "2026-09-23",
+     "query": "CZK to KRW exchange rate September 2026 koruna won"
+    }
+   }
+  }
+ },
+ "gaps": [
+  "WebFetch/curl blocked by egress proxy for every travel and FX site tried (kayak, expedia, skyscanner, ecb, open.er-api): ALL sources are search-snippet level, none 'full'.",
+  "Flight price min/max mix 'from' fares and 'typical range' figures from search-engine summaries; airport/date not fixed. Several maxima are 'from' fares or averages, not true upper bounds (seoul-rome, seoul-prague, seoul-hanoi, singapore-london, taipei-hanoi, bangkok-paris) — see notes_ko.",
+  "Snippet summaries blend several result pages; the URL attached to each price is the result whose title/description best matches, but per-number attribution is not verified.",
+  "bangkok-london: nonstop flight hours not found (search budget exhausted) — hours is null.",
+  "seoul-singapore hours (~7h) and taipei-bangkok (~4h) are approximate snippet values.",
+  "JPY: source quotes per 100 yen (862.73 KRW); stored as per 1 yen (8.6273). A conflicting snippet said '100엔당 8.65원' (unit typo) — ignored.",
+  "TWD/THB: derived by inverting the KRW->X rate in the pluang page title (1 KRW = 0.023603 TWD -> 42.37; 1 KRW = 0.024728 THB -> 40.44). The pluang reverse pages showed 42.703 KRW/TWD and 41.6027 KRW/THB (likely stale cache) — conflict unresolved; a Korean bank 매매기준율 snippet gave THB 40.38, SGD 1061.19 (exact page unattributed).",
+  "GBP/TWD/VND/CZK/THB pluang pages are live converters; dates come from search-summary text (GBP 09-30, CZK 09-23, VND 09-26, THB 09-29), not verified on-page.",
+  "EUR: Citibank Korea snippet gave 1,538.11 for 09-30 vs snmnews 1,536.10 at 15:30 close; used snmnews."
+ ]
+}

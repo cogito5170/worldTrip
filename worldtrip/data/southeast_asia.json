@@ -1,0 +1,1075 @@
+{
+ "region": "southeast_asia",
+ "researched_on": "2026-10-01",
+ "cities": [
+  {
+   "id": "bangkok",
+   "name": "Bangkok",
+   "name_ko": "방콕",
+   "country": "TH",
+   "country_name": "Thailand",
+   "country_ko": "태국",
+   "tz": "Asia/Bangkok",
+   "currency": "THB",
+   "lat": 13.75,
+   "lon": 100.5,
+   "min_nights": null,
+   "best_months": [
+    11,
+    12,
+    1,
+    2
+   ],
+   "best_months_source": {
+    "url": "https://www.kuoni.co.uk/destinations/south-east-asia/thailand/bangkok/best-time-to-visit/",
+    "level": "snippet",
+    "date": "2026",
+    "query": "Bangkok best time to visit November February rainy season flooding September October"
+   },
+   "lodging": {
+    "hostel": {
+     "min": 200,
+     "max": 400,
+     "currency": "THB",
+     "unit": "per night",
+     "source": {
+      "url": "https://spendsanity.com/thailand/bangkok/hostel-dorm",
+      "level": "snippet",
+      "date": "2026",
+      "query": "Bangkok hostel dorm bed price per night baht 2026 average hotel price mid-range"
+     }
+    },
+    "mid": {
+     "min": 1500,
+     "max": 3000,
+     "currency": "THB",
+     "unit": "per night",
+     "source": {
+      "url": "https://singaporehotelfinder.com/guides/bangkok-hotel-fare-2026/",
+      "level": "snippet",
+      "date": "2026",
+      "query": "Bangkok hostel dorm bed price per night baht 2026 average hotel price mid-range"
+     }
+    },
+    "upscale": {
+     "min": 103,
+     "max": 227,
+     "currency": "USD",
+     "unit": "per night",
+     "source": {
+      "url": "https://www.hotelscombined.com/Place/Bangkok-5-Star-Hotels.5sr.26166.ksp",
+      "level": "snippet",
+      "date": "2026",
+      "query": "Bangkok luxury 5-star hotel average price per night baht 2026"
+     }
+    }
+   },
+   "food_per_day": {
+    "budget": {
+     "min": 150,
+     "max": 220,
+     "currency": "THB",
+     "unit": "per day",
+     "source": {
+      "url": "https://offpaththailand.com/bangkok-street-food-prices-2026/",
+      "level": "snippet",
+      "date": "2026",
+      "query": "Bangkok daily food budget street food baht per day 2026"
+     }
+    },
+    "mid": {
+     "min": 300,
+     "max": 500,
+     "currency": "THB",
+     "unit": "per day",
+     "source": {
+      "url": "https://www.khaosanroad.com/articles/bangkok-street-food-by-budget-50-100-200-baht",
+      "level": "snippet",
+      "date": "2026",
+      "query": "Bangkok daily food budget street food baht per day 2026"
+     }
+    },
+    "comfort": null
+   },
+   "transit": {
+    "day_cost": {
+     "min": 150,
+     "max": 160,
+     "currency": "THB",
+     "unit": "per day",
+     "source": {
+      "url": "https://btsbangkok.com/one-day-pass",
+      "level": "snippet",
+      "date": "2026",
+      "query": "Airport Rail Link Suvarnabhumi Phaya Thai fare baht 2026 BTS one day pass price"
+     }
+    },
+    "pass": {
+     "name": "BTS One-Day Pass",
+     "price": {
+      "min": 150,
+      "max": 160,
+      "currency": "THB",
+      "unit": "per pass",
+      "source": {
+       "url": "https://www.chiangraitimes.com/travel-day-trips/bangkok-bts-and-mrt-fares/",
+       "level": "snippet",
+       "date": "2026",
+       "query": "Airport Rail Link Suvarnabhumi Phaya Thai fare baht 2026 BTS one day pass price"
+      }
+     },
+     "covers": "BTS Skytrain only for one day; MRT and Airport Rail Link not included"
+    },
+    "airport": {
+     "name": "Airport Rail Link (Suvarnabhumi - Phaya Thai)",
+     "price": {
+      "min": 45,
+      "max": 45,
+      "currency": "THB",
+      "unit": "per ride",
+      "source": {
+       "url": "https://mapa-metro.com/en/thailand/bangkok/airport-rail-link-bangkok-map.htm",
+       "level": "snippet",
+       "date": "2026",
+       "query": "Airport Rail Link Suvarnabhumi Phaya Thai fare baht 2026 BTS one day pass price"
+      }
+     },
+     "minutes": 30
+    },
+    "notes_ko": "day_cost는 BTS 1일권 가격(150~160바트, 출처마다 다름)을 그대로 쓴 값으로 MRT·공항철도는 포함되지 않는다. 택시는 미터 거부가 잦아 Grab·Bolt가 고정 요금이라 편하다."
+   },
+   "attractions": [
+    {
+     "id": "grand-palace",
+     "name": "The Grand Palace & Wat Phra Kaew",
+     "name_ko": "왕궁·왓 프라깨우",
+     "tags": [
+      "history",
+      "architecture",
+      "religion",
+      "culture"
+     ],
+     "price": {
+      "min": 500,
+      "max": 500,
+      "currency": "THB",
+      "unit": "per ticket",
+      "source": {
+       "url": "https://www.tripthaitour.com/blog/grand-palace-tour-bangkok",
+       "level": "snippet",
+       "date": "2026",
+       "query": "Grand Palace Bangkok ticket price 2026 foreigners 500 baht"
+      }
+     },
+     "hours": null,
+     "reservation": false,
+     "tip_ko": "매표는 08:30~15:30. 긴팔·긴바지 복장이 아니면 입구에서 막히고, 입장권에 퀸 시리킷 직물박물관이 포함된다."
+    },
+    {
+     "id": "wat-pho",
+     "name": "Wat Pho (Reclining Buddha)",
+     "name_ko": "왓 포(와불사원)",
+     "tags": [
+      "religion",
+      "history",
+      "architecture"
+     ],
+     "price": {
+      "min": 300,
+      "max": 300,
+      "currency": "THB",
+      "unit": "per ticket",
+      "source": {
+       "url": "https://traveltheworldpages.com/wat-pho-temple-bangkok/",
+       "level": "snippet",
+       "date": "2026",
+       "query": "Wat Pho entrance fee 2026 foreigners baht"
+      }
+     },
+     "hours": null,
+     "reservation": false,
+     "tip_ko": "요금이 300바트로 올랐고 생수 한 병이 포함된다. 매표소는 대개 현금(바트)만 받는다."
+    },
+    {
+     "id": "wat-arun",
+     "name": "Wat Arun (Temple of Dawn)",
+     "name_ko": "왓 아룬(새벽사원)",
+     "tags": [
+      "religion",
+      "architecture",
+      "views"
+     ],
+     "price": {
+      "min": 200,
+      "max": 200,
+      "currency": "THB",
+      "unit": "per ticket",
+      "source": {
+       "url": "https://watarun.com/wat-arun-tickets/",
+       "level": "snippet",
+       "date": "2026",
+       "query": "Wat Arun entrance fee 2026 baht"
+      }
+     },
+     "hours": null,
+     "reservation": false,
+     "tip_ko": "08:00~18:00(마지막 입장 17:30), 현금만. 노을은 강 건너편에서 보는 것이 가장 좋다는 평이 많다."
+    },
+    {
+     "id": "jim-thompson-house",
+     "name": "Jim Thompson House Museum",
+     "name_ko": "짐 톰슨 하우스",
+     "tags": [
+      "history",
+      "art",
+      "architecture"
+     ],
+     "price": {
+      "min": 200,
+      "max": 250,
+      "currency": "THB",
+      "unit": "per ticket",
+      "source": {
+       "url": "https://www.bangkok-spirit.com/guides/jim-thompson-house/",
+       "level": "snippet",
+       "date": "2026",
+       "query": "Jim Thompson House museum admission fee 2026 baht guided tour"
+      }
+     },
+     "hours": null,
+     "reservation": false,
+     "tip_ko": "10:00~18:00, 마지막 가이드 투어 17:00. 30~40분 가이드 투어가 입장료에 포함된다(출처마다 200/250바트로 엇갈림)."
+    },
+    {
+     "id": "mahanakhon-skywalk",
+     "name": "King Power Mahanakhon SkyWalk",
+     "name_ko": "킹파워 마하나콘 스카이워크",
+     "tags": [
+      "views"
+     ],
+     "price": {
+      "min": 1000,
+      "max": 1200,
+      "currency": "THB",
+      "unit": "per ticket",
+      "source": {
+       "url": "https://kingpowermahanakhon.co.th/experience/mahanakhon-skywalk",
+       "level": "snippet",
+       "date": "2026",
+       "query": "King Power Mahanakhon SkyWalk ticket price 2026 baht"
+      }
+     },
+     "hours": null,
+     "reservation": false,
+     "tip_ko": "성인 10:00~15:30 1,000바트, 15:30 이후(노을·야경 시간대) 1,200바트. 온라인 프로모션가가 있을 수 있다."
+    },
+    {
+     "id": "chatuchak",
+     "name": "Chatuchak Weekend Market",
+     "name_ko": "짜뚜짝 주말시장",
+     "tags": [
+      "shopping",
+      "food"
+     ],
+     "price": {
+      "min": 0,
+      "max": 0,
+      "currency": "THB",
+      "unit": "per person",
+      "source": {
+       "url": "https://www.agoda.com/travel-guides/thailand/bangkok/discover-chatuchak-weekend-market-opening-hours-tips/",
+       "level": "snippet",
+       "date": "2026",
+       "query": "Chatuchak Weekend Market opening hours free entry 2026"
+      }
+     },
+     "hours": null,
+     "reservation": false,
+     "tip_ko": "입장료 없음. 금 18:00~자정, 토·일 09:00~18:00. 더위를 피하려면 09~11시나 16시 이후."
+    }
+   ],
+   "restaurants": [
+    {
+     "name": "Raan Jay Fai",
+     "kind": "wok street food (Michelin 1 star)",
+     "tier": "comfort",
+     "price": {
+      "min": 1000,
+      "max": 1800,
+      "currency": "THB",
+      "unit": "per person",
+      "source": {
+       "url": "https://www.thefinestthai.com/2026/04/16/jay-fai-bangkok-the-street-food-legend-with-a-michelin-star/",
+       "level": "snippet",
+       "date": "2026-04",
+       "query": "Jay Fai Michelin star price crab omelette baht queue reservation"
+      }
+     },
+     "tip_ko": "예약을 받지 않고 오전 8시에 대기명단을 연다. 2~4시간 대기도 흔하다. 가격은 게 오믈렛 한 접시 기준이다."
+    },
+    {
+     "name": "Thipsamai (Pad Thai Pratu Phi)",
+     "kind": "pad thai",
+     "tier": "budget",
+     "price": {
+      "min": 90,
+      "max": 150,
+      "currency": "THB",
+      "unit": "per person",
+      "source": {
+       "url": "https://www.eatingthaifood.com/restaurants/pad-thai-thip-samai-restaurant-bangkok/",
+       "level": "snippet",
+       "date": "2026",
+       "query": "Thip Samai pad thai price baht 2026"
+      }
+     },
+     "tip_ko": "기본 팟타이 90바트부터, 새우 팟타이 150바트 안팎."
+    },
+    {
+     "name": "Krua Apsorn (Dinso)",
+     "kind": "Thai home cooking / crab omelette",
+     "tier": "mid",
+     "price": {
+      "min": 200,
+      "max": 400,
+      "currency": "THB",
+      "unit": "per person",
+      "source": {
+       "url": "https://autoreserve.com/en/restaurants/V31puDmJu3ykUWL4akxJ",
+       "level": "snippet",
+       "date": "2026",
+       "query": "Somtum Der Bangkok Michelin price baht OR \"Krua Apsorn\" price per person"
+      }
+     },
+     "tip_ko": "미쉐린에 오른 소박한 식당. 게살 오믈렛이 대표 메뉴."
+    }
+   ],
+   "activities": [
+    {
+     "name": "Half-day Thai cooking class (e.g. Silom, Sompong, Baipai)",
+     "name_ko": "태국 요리 교실(반나절)",
+     "tags": [
+      "food",
+      "culture"
+     ],
+     "price": {
+      "min": 1000,
+      "max": 3500,
+      "currency": "THB",
+      "unit": "per person",
+      "source": {
+       "url": "https://infobangkok.com/bangkok-cooking-classes/",
+       "level": "snippet",
+       "date": "2026",
+       "query": "Bangkok Thai cooking class price baht half day 2026"
+      }
+     },
+     "hours": null
+    },
+    {
+     "name": "Damnoen Saduak Floating Market half-day tour",
+     "name_ko": "담넌사두악 수상시장 반나절 투어",
+     "tags": [
+      "culture",
+      "food",
+      "shopping"
+     ],
+     "price": {
+      "min": 700,
+      "max": 1500,
+      "currency": "THB",
+      "unit": "per person",
+      "source": {
+       "url": "https://www.bangkok-spirit.com/tours/damnoen-saduak-floating-market/",
+       "level": "snippet",
+       "date": "2026",
+       "query": "Damnoen Saduak floating market tour from Bangkok price baht 2026"
+      }
+     },
+     "hours": null
+    }
+   ],
+   "concerns": [
+    {
+     "topic": "scam",
+     "text_ko": "왕궁 앞에서 '오늘은 휴관'이라며 툭툭 관광을 권하는 사기가 가장 흔하다. 보석·양복점으로 데려가 수수료를 챙기므로 무시하고 정문 매표소로 간다.",
+     "source": {
+      "url": "https://www.bangkok-spirit.com/guides/grand-palace-scam-warning/",
+      "level": "snippet",
+      "date": "2026",
+      "query": "Grand Palace Bangkok scam \"closed today\" tuk tuk gem scam tips"
+     }
+    },
+    {
+     "topic": "transport",
+     "text_ko": "관광지·유흥가·심야·폭우 때 택시가 미터를 거부하고 2~3배 정액을 부르는 일이 잦다. 내려서 다른 택시를 잡거나 Grab·Bolt를 쓴다.",
+     "source": {
+      "url": "https://thailandinsiderguide.com/en/travel-essentials/scams-in-thailand/",
+      "level": "snippet",
+      "date": "2026",
+      "query": "Bangkok taxi refuses meter Grab tips tourists 2026"
+     }
+    },
+    {
+     "topic": "etiquette",
+     "text_ko": "왕궁은 긴팔·긴바지 복장이 아니면 입장이 막혀 안에서 바지나 스카프를 사야 한다. 적용이 들쭉날쭉하다는 후기도 있다.",
+     "source": {
+      "url": "https://www.tripadvisor.com/ShowUserReviews-g293916-d317603-r553581815-The_Grand_Palace-Bangkok.html",
+      "level": "snippet",
+      "date": "2026",
+      "query": "Grand Palace Bangkok tripadvisor reviews crowded hot dress code worth it"
+     }
+    },
+    {
+     "topic": "weather",
+     "text_ko": "우기(대략 6~10월) 중 9~10월이 가장 비가 많아 침수·항공 지연이 날 수 있다. 다만 대개 오후 소나기라 관광은 가능하다.",
+     "source": {
+      "url": "https://www.thailandhighlights.com/thailand/best-time-to-visit",
+      "level": "snippet",
+      "date": "2026",
+      "query": "Bangkok best time to visit November February rainy season flooding September October"
+     }
+    },
+    {
+     "topic": "cash",
+     "text_ko": "왓 아룬 등 사원 매표소는 현금(바트)만 받는 경우가 많아 카드·QR에 기대지 말아야 한다.",
+     "source": {
+      "url": "https://watarun.com/wat-arun-tickets/",
+      "level": "snippet",
+      "date": "2026",
+      "query": "Wat Arun entrance fee 2026 baht"
+     }
+    }
+   ],
+   "reviews": [
+    {
+     "about": "The Grand Palace",
+     "sentiment": "mixed",
+     "summary_ko": "건축은 훌륭하지만 덥고 줄이 길며 인파가 많다는 평. 평일 오전 방문 권장, 값어치에 대해선 의견이 갈린다.",
+     "source": {
+      "url": "https://www.tripadvisor.com/ShowUserReviews-g293916-d317603-r256024278-The_Grand_Palace-Bangkok.html",
+      "level": "snippet",
+      "date": "2026",
+      "query": "Grand Palace Bangkok tripadvisor reviews crowded hot dress code worth it"
+     }
+    },
+    {
+     "about": "Wat Arun",
+     "sentiment": "pos",
+     "summary_ko": "꼭대기 계단이 매우 가팔라 내려올 때 더 무섭지만 전망은 그만한 가치가 있고, 강 건너편에서 본 노을 풍경이 최고라는 평.",
+     "source": {
+      "url": "https://www.tripadvisor.com/ShowUserReviews-g293916-d317504-r134485970-Temple_Of_Dawn_Wat_Arun-Bangkok.html",
+      "level": "snippet",
+      "date": "2026",
+      "query": "Wat Arun tripadvisor review steep stairs best at sunset view from river"
+     }
+    }
+   ]
+  },
+  {
+   "id": "chiangmai",
+   "name": "Chiang Mai",
+   "name_ko": "치앙마이",
+   "country": "TH",
+   "country_name": "Thailand",
+   "country_ko": "태국",
+   "tz": "Asia/Bangkok",
+   "currency": "THB",
+   "lat": 18.79,
+   "lon": 98.98,
+   "min_nights": null,
+   "best_months": null,
+   "lodging": {
+    "hostel": {
+     "min": 180,
+     "max": 350,
+     "currency": "THB",
+     "unit": "per night",
+     "source": {
+      "url": "https://www.visitthailandtoday.com/top-lists/cheapest-hotels-chiang-mai",
+      "level": "snippet",
+      "date": "2026",
+      "query": "Chiang Mai hostel dorm price baht mid-range hotel price per night 2026"
+     }
+    },
+    "mid": {
+     "min": 1500,
+     "max": 2500,
+     "currency": "THB",
+     "unit": "per night",
+     "source": {
+      "url": "https://www.travelarbitrage.net/en/blog/best-hotels-chiang-mai-2026/",
+      "level": "snippet",
+      "date": "2026",
+      "query": "Chiang Mai hostel dorm price baht mid-range hotel price per night 2026"
+     }
+    },
+    "upscale": {
+     "min": 135,
+     "max": 180,
+     "currency": "USD",
+     "unit": "per night",
+     "source": {
+      "url": "https://www.hotelscombined.com/Place/Chiang-Mai-5-Star-Hotels.5sr.6042.ksp",
+      "level": "snippet",
+      "date": "2026",
+      "query": "Chiang Mai luxury resort average price per night 2026 baht 5-star"
+     }
+    }
+   },
+   "food_per_day": {
+    "budget": {
+     "min": 200,
+     "max": 300,
+     "currency": "THB",
+     "unit": "per day",
+     "source": {
+      "url": "https://www.melia.com/en/blog/travel/chiang-mai-travel-budget",
+      "level": "snippet",
+      "date": "2026",
+      "query": "Chiang Mai daily food budget baht per day 2026 street food mid-range"
+     }
+    },
+    "mid": null,
+    "comfort": null
+   },
+   "transit": {
+    "day_cost": null,
+    "pass": null,
+    "airport": {
+     "name": "Official airport taxi (CNX -> Old City, flat fare)",
+     "price": {
+      "min": 150,
+      "max": 200,
+      "currency": "THB",
+      "unit": "per ride",
+      "source": {
+       "url": "https://www.southeastasiasimplified.com/blog/transfer-guides-5/chiang-mai-airport-transfer-guide-all-options-2026-166",
+       "level": "snippet",
+       "date": "2026",
+       "query": "Chiang Mai airport to Old City taxi price baht Grab songthaew fare 2026"
+      }
+     },
+     "minutes": 20
+    },
+    "notes_ko": "시내는 빨간 썽태우(합승) 1인 30바트가 기준이고 먼 동네는 50바트까지 부른다(1회 승차 기준, 일일 비용 자료 없음). 공항 Grab은 약 120~200바트, 비·혼잡 시 할증.",
+    "songthaew_ride": {
+     "min": 30,
+     "max": 50,
+     "currency": "THB",
+     "unit": "per ride",
+     "source": {
+      "url": "https://www.byklo.rent/en/blog/how-to-get-around-chiang-mai/",
+      "level": "snippet",
+      "date": "2026",
+      "query": "Chiang Mai red songthaew fare within city 30 baht 2026 daily transport cost"
+     }
+    }
+   },
+   "attractions": [
+    {
+     "id": "doi-suthep",
+     "name": "Wat Phra That Doi Suthep",
+     "name_ko": "왓 프라탓 도이수텝",
+     "tags": [
+      "religion",
+      "views",
+      "nature"
+     ],
+     "price": {
+      "min": 30,
+      "max": 50,
+      "currency": "THB",
+      "unit": "per ticket",
+      "source": {
+       "url": "https://www.chiangmai-trip.com/guides/doi-suthep-temple-guide/",
+       "level": "snippet",
+       "date": "2026",
+       "query": "Doi Suthep temple entrance fee foreigners 2026 baht songthaew price"
+      }
+     },
+     "hours": null,
+     "reservation": false,
+     "tip_ko": "사원 입장료 30바트(일부 50바트로 안내), 현금. 306계단 대신 케이블카(외국인 50바트)도 있다. 창푸악 문에서 합승 썽태우 50바트."
+    },
+    {
+     "id": "wat-chedi-luang",
+     "name": "Wat Chedi Luang",
+     "name_ko": "왓 쩨디루앙",
+     "tags": [
+      "religion",
+      "history",
+      "architecture"
+     ],
+     "price": {
+      "min": 40,
+      "max": 50,
+      "currency": "THB",
+      "unit": "per ticket",
+      "source": {
+       "url": "https://lorenzigo.com/wat-chedi-luang-chiang-mai/",
+       "level": "snippet",
+       "date": "2026",
+       "query": "Wat Chedi Luang entrance fee 2026 baht Chiang Mai"
+      }
+     },
+     "hours": null,
+     "reservation": false,
+     "tip_ko": "구시가지 안, 대략 06~18시. 현금(바트)만 받는다."
+    },
+    {
+     "id": "wat-phra-singh",
+     "name": "Wat Phra Singh",
+     "name_ko": "왓 프라싱",
+     "tags": [
+      "religion",
+      "architecture",
+      "art"
+     ],
+     "price": {
+      "min": 20,
+      "max": 50,
+      "currency": "THB",
+      "unit": "per ticket",
+      "source": {
+       "url": "https://www.feel-chiang-mai.com/buddhism/wat-phra-singh-chiang-mai-guide/",
+       "level": "snippet",
+       "date": "2026",
+       "query": "Wat Phra Singh Chiang Mai entrance fee 2026 baht"
+      }
+     },
+     "hours": null,
+     "reservation": false,
+     "tip_ko": "라이캄 위한(불상 안치 법당)에 별도 요금을 받는다는 안내가 있으며 출처마다 금액이 20~50바트로 엇갈린다."
+    }
+   ],
+   "restaurants": [
+    {
+     "name": "Khao Soi Mae Sai",
+     "kind": "khao soi",
+     "tier": "budget",
+     "price": {
+      "min": 45,
+      "max": 75,
+      "currency": "THB",
+      "unit": "per person",
+      "source": {
+       "url": "https://www.tripadvisor.com/Restaurant_Review-g293917-d7779592-Reviews-Khao_Soi_Mae_Sai-Chiang_Mai.html",
+       "level": "snippet",
+       "date": "2026",
+       "query": "Khao soi Khun Yai OR Khao Soi Mae Sai Chiang Mai price baht Michelin"
+      }
+     },
+     "tip_ko": "미쉐린에 소개된 카오소이 집. 한 그릇 기준 가격."
+    },
+    {
+     "name": "Khao Soi Khun Yai",
+     "kind": "khao soi",
+     "tier": "budget",
+     "price": {
+      "min": 35,
+      "max": 70,
+      "currency": "THB",
+      "unit": "per person",
+      "source": {
+       "url": "https://www.tripadvisor.com/Restaurant_Review-g293917-d3722127-Reviews-Khao_Soi_Khun_Yai-Chiang_Mai.html",
+       "level": "snippet",
+       "date": "2026",
+       "query": "Khao soi Khun Yai OR Khao Soi Mae Sai Chiang Mai price baht Michelin"
+      }
+     },
+     "tip_ko": "소·대 사이즈가 있고 출처마다 35~70바트로 가격이 다르다."
+    },
+    {
+     "name": "Huen Phen",
+     "kind": "northern Thai",
+     "tier": "mid",
+     "price": {
+      "min": 101,
+      "max": 400,
+      "currency": "THB",
+      "unit": "per person",
+      "source": {
+       "url": "https://www.eatingthaifood.com/restaurants/northern-thai-food-huen-phen-restaurant-chiang-mai/",
+       "level": "snippet",
+       "date": "2026",
+       "query": "Huen Phen Chiang Mai restaurant price per person baht northern Thai"
+      }
+     },
+     "tip_ko": "랏차망카 로드의 북부·이산 요리집으로 현지인에게도 인기가 많다."
+    }
+   ],
+   "activities": [
+    {
+     "name": "Elephant Nature Park single-day visit",
+     "name_ko": "엘리펀트 네이처 파크 1일 방문",
+     "tags": [
+      "nature",
+      "family"
+     ],
+     "price": {
+      "min": 2500,
+      "max": 2500,
+      "currency": "THB",
+      "unit": "per person",
+      "source": {
+       "url": "https://elephantnaturepark.org/book-now/",
+       "level": "snippet",
+       "date": "2026",
+       "query": "Elephant Nature Park single day visit price baht 2026"
+      }
+     },
+     "hours": null
+    },
+    {
+     "name": "Farm cooking class (Thai Farm Cooking School, Mama Noi, Asia Scenic)",
+     "name_ko": "농장 요리 교실",
+     "tags": [
+      "food",
+      "culture",
+      "nature"
+     ],
+     "price": {
+      "min": 1200,
+      "max": 1800,
+      "currency": "THB",
+      "unit": "per person",
+      "source": {
+       "url": "https://www.chiangmai-trip.com/guides/chiang-mai-cooking-class/",
+       "level": "snippet",
+       "date": "2026",
+       "query": "Chiang Mai cooking class price baht 2026 farm full day"
+      }
+     },
+     "hours": null
+    }
+   ],
+   "concerns": [
+    {
+     "topic": "weather",
+     "text_ko": "1~4월 화전·산불 연기로 공기질이 나빠지며 3월이 정점이다. 2026년 3월에도 IQAir 세계 오염도 상위권에 올랐다.",
+     "source": {
+      "url": "https://www.iqair.com/newsroom/chiang-mai-ranks-among-the-top-10-most-polluted-cities-during-thailand-s-burning-season-3-4-2026",
+      "level": "snippet",
+      "date": "2026-03",
+      "query": "Chiang Mai burning season smoky air pollution PM2.5 March April travel"
+     }
+    },
+    {
+     "topic": "scam",
+     "text_ko": "'생크추어리'라는 이름만 붙인 코끼리 캠프가 많다. 타기·쇼·목욕 강요가 없는 곳인지 확인해야 한다.",
+     "source": {
+      "url": "https://www.seeksophie.com/magazine/a/5-tips-for-visiting-an-ethical-elephant-sanctuary-in-chiang-mai",
+      "level": "snippet",
+      "date": "2026",
+      "query": "Chiang Mai elephant camp ethical riding avoid sanctuary greenwashing tourists"
+     }
+    },
+    {
+     "topic": "transport",
+     "text_ko": "썽태우는 시내 30바트가 기준이지만 다른 동네로 가면 50바트까지 부르니 타기 전에 가격을 확인한다.",
+     "source": {
+      "url": "https://catisoutoftheoffice.com/chiang-mai-songthaew/",
+      "level": "snippet",
+      "date": "2026",
+      "query": "Chiang Mai red songthaew fare within city 30 baht 2026 daily transport cost"
+     }
+    },
+    {
+     "topic": "cash",
+     "text_ko": "왓 쩨디루앙 등 사원 입장료는 현금만 받는다(카드·QR 불가).",
+     "source": {
+      "url": "https://lorenzigo.com/wat-chedi-luang-chiang-mai/",
+      "level": "snippet",
+      "date": "2026",
+      "query": "Wat Chedi Luang entrance fee 2026 baht Chiang Mai"
+     }
+    }
+   ],
+   "reviews": [
+    {
+     "about": "Wat Phra That Doi Suthep",
+     "sentiment": "pos",
+     "summary_ko": "300여 개 계단이 힘들지만 맑은 날 시내 전망이 그만한 가치가 있다는 평. 인파가 분위기를 깎으니 이른 아침이나 해질녘을 권한다.",
+     "source": {
+      "url": "https://www.tripadvisor.com/ShowUserReviews-g8286767-d456320-r339325442-Wat_Phra_That_Doi_Suthep-Doi_Suthep.html",
+      "level": "snippet",
+      "date": "2026",
+      "query": "Doi Suthep tripadvisor review 306 steps crowded view worth it"
+     }
+    }
+   ]
+  },
+  {
+   "id": "hanoi",
+   "name": "Hanoi",
+   "name_ko": "하노이",
+   "country": "VN",
+   "country_name": "Vietnam",
+   "country_ko": "베트남",
+   "tz": "Asia/Ho_Chi_Minh",
+   "currency": "VND",
+   "lat": 21.03,
+   "lon": 105.85,
+   "min_nights": null,
+   "best_months": null,
+   "lodging": {
+    "hostel": {
+     "min": 200000,
+     "max": 250000,
+     "currency": "VND",
+     "unit": "per night",
+     "source": {
+      "url": "https://vietnamtravelers.com/hostels-hanoi-old-quarter/",
+      "level": "snippet",
+      "date": "2026",
+      "query": "Hanoi hostel dorm price VND mid-range hotel Old Quarter price per night 2026"
+     }
+    },
+    "mid": {
+     "min": 700000,
+     "max": 1500000,
+     "currency": "VND",
+     "unit": "per night",
+     "source": {
+      "url": "https://vietnamwithme.com/2026/07/07/vietnam-hotel-prices/",
+      "level": "snippet",
+      "date": "2026-07",
+      "query": "Hanoi hostel dorm price VND mid-range hotel Old Quarter price per night 2026"
+     }
+    },
+    "upscale": null
+   },
+   "food_per_day": {
+    "budget": null,
+    "mid": null,
+    "comfort": null
+   },
+   "transit": {
+    "day_cost": null,
+    "pass": null,
+    "airport": null,
+    "notes_ko": "조사 예산 소진으로 하노이 교통 자료를 모으지 못했다."
+   },
+   "attractions": [
+    {
+     "id": "temple-of-literature",
+     "name": "Temple of Literature (Van Mieu)",
+     "name_ko": "문묘(반미에우)",
+     "tags": [
+      "history",
+      "architecture",
+      "culture"
+     ],
+     "price": {
+      "min": 70000,
+      "max": 70000,
+      "currency": "VND",
+      "unit": "per ticket",
+      "source": {
+       "url": "https://vietnamwithme.com/2026/08/22/temple-of-literature-hanoi-guide/",
+       "level": "snippet",
+       "date": "2026-08",
+       "query": "Temple of Literature Hanoi ticket price 2026 VND opening hours"
+      }
+     },
+     "hours": null,
+     "reservation": false,
+     "tip_ko": "08:00~17:00(마지막 입장 16:45). 매표소는 카드 불가, 현금 준비. 외국어 오디오가이드 100,000동."
+    },
+    {
+     "id": "hoa-lo-prison",
+     "name": "Hoa Lo Prison Relic",
+     "name_ko": "호아로 수용소",
+     "tags": [
+      "history"
+     ],
+     "price": {
+      "min": 50000,
+      "max": 50000,
+      "currency": "VND",
+      "unit": "per ticket",
+      "source": {
+       "url": "https://viet-go.com/en/attractions/hoa-lo-prison-hanoi-guide",
+       "level": "snippet",
+       "date": "2026",
+       "query": "Hoa Lo Prison ticket price 2026 VND Ho Chi Minh Mausoleum free opening hours"
+      }
+     },
+     "hours": null,
+     "reservation": false,
+     "tip_ko": "매일 08:00~17:00(마지막 입장 16:30), 공휴일에도 연다."
+    },
+    {
+     "id": "ho-chi-minh-mausoleum",
+     "name": "Ho Chi Minh Mausoleum",
+     "name_ko": "호찌민 묘소",
+     "tags": [
+      "history",
+      "culture"
+     ],
+     "price": {
+      "min": 0,
+      "max": 0,
+      "currency": "VND",
+      "unit": "per person",
+      "source": {
+       "url": "https://lasiestahotels.com/mamay/ho-chi-minh-mausoleum.html",
+       "level": "snippet",
+       "date": "2026",
+       "query": "Ho Chi Minh Mausoleum Hanoi entry free opening hours closed October November 2026"
+      }
+     },
+     "hours": null,
+     "reservation": false,
+     "tip_ko": "무료. 월·금 휴관, 오전에만 연다. 2026-09-04~11-02 정비로 참배 중단, 11월 3일 재개. 복장 규정이 엄격하다."
+    },
+    {
+     "id": "thang-long-water-puppet",
+     "name": "Thang Long Water Puppet Theatre",
+     "name_ko": "탕롱 수상인형극장",
+     "tags": [
+      "culture",
+      "family",
+      "art"
+     ],
+     "price": {
+      "min": 100000,
+      "max": 200000,
+      "currency": "VND",
+      "unit": "per ticket",
+      "source": {
+       "url": "https://viet-go.com/en/attractions/thang-long-water-puppet-theatre-guide",
+       "level": "snippet",
+       "date": "2026",
+       "query": "Thang Long Water Puppet Theatre ticket price 2026 VND"
+      }
+     },
+     "hours": null,
+     "reservation": false,
+     "tip_ko": "좌석 등급별 100,000/150,000/200,000동. 사진 촬영 20,000동, 영상 60,000동 추가. 공식 사이트에서 사전 예매 가능."
+    }
+   ],
+   "restaurants": [],
+   "activities": [],
+   "concerns": [
+    {
+     "topic": "closure",
+     "text_ko": "호찌민 묘소는 2026년 9월 4일~11월 2일 정비로 참배가 중단된다. 평소에도 월·금은 휴관이고 오전에만 연다.",
+     "source": {
+      "url": "https://lasiestahotels.com/mamay/ho-chi-minh-mausoleum.html",
+      "level": "snippet",
+      "date": "2026",
+      "query": "Ho Chi Minh Mausoleum Hanoi entry free opening hours closed October November 2026"
+     }
+    },
+    {
+     "topic": "closure",
+     "text_ko": "기찻길 거리는 경찰·민병이 08~23시 통제해 혼자 선로를 걸을 수 없고 카페 손님으로만 들어간다. 2025년 3월부터 단체 투어 금지, 카페 가격은 주변보다 50~100% 비싸다.",
+     "source": {
+      "url": "https://revitrip.com/blog/is-hanoi-train-street-still-open",
+      "level": "snippet",
+      "date": "2026",
+      "query": "Hanoi Train Street closed police cafes 2026 tourists"
+     }
+    },
+    {
+     "topic": "cash",
+     "text_ko": "문묘 매표소는 카드를 받지 않아 현금(동)이 필요하다.",
+     "source": {
+      "url": "https://vietnamwithme.com/2026/08/22/temple-of-literature-hanoi-guide/",
+      "level": "snippet",
+      "date": "2026-08",
+      "query": "Temple of Literature Hanoi ticket price 2026 VND opening hours"
+     }
+    }
+   ],
+   "reviews": []
+  },
+  {
+   "id": "hochiminh",
+   "name": "Ho Chi Minh City",
+   "name_ko": "호찌민",
+   "country": "VN",
+   "country_name": "Vietnam",
+   "country_ko": "베트남",
+   "tz": "Asia/Ho_Chi_Minh",
+   "currency": "VND",
+   "lat": 10.78,
+   "lon": 106.7,
+   "min_nights": null,
+   "best_months": null,
+   "lodging": {
+    "hostel": null,
+    "mid": null,
+    "upscale": null
+   },
+   "food_per_day": {
+    "budget": null,
+    "mid": null,
+    "comfort": null
+   },
+   "transit": {
+    "day_cost": null,
+    "pass": null,
+    "airport": null,
+    "notes_ko": "조사 예산 소진으로 자료를 모으지 못했다."
+   },
+   "attractions": [],
+   "restaurants": [],
+   "activities": [],
+   "concerns": [],
+   "reviews": []
+  },
+  {
+   "id": "singapore",
+   "name": "Singapore",
+   "name_ko": "싱가포르",
+   "country": "SG",
+   "country_name": "Singapore",
+   "country_ko": "싱가포르",
+   "tz": "Asia/Singapore",
+   "currency": "SGD",
+   "lat": 1.29,
+   "lon": 103.85,
+   "min_nights": null,
+   "best_months": null,
+   "lodging": {
+    "hostel": null,
+    "mid": null,
+    "upscale": null
+   },
+   "food_per_day": {
+    "budget": null,
+    "mid": null,
+    "comfort": null
+   },
+   "transit": {
+    "day_cost": null,
+    "pass": null,
+    "airport": null,
+    "notes_ko": "조사 예산 소진으로 자료를 모으지 못했다."
+   },
+   "attractions": [],
+   "restaurants": [],
+   "activities": [],
+   "concerns": [],
+   "reviews": []
+  }
+ ],
+ "edges": [],
+ "gaps": [
+  "TOOLING: WebFetch was blocked by the egress proxy for every domain tried (royalgrandpalace.th, grandpalacebangkok.org, yourthaiguide.com, gardensbythebay.com.sg, en.wikipedia.org), so NO page was read in full; every source is level 'snippet'. The WebSearch budget (200 per session, shared) ran out mid-research, so Hanoi is partial and Ho Chi Minh City, Singapore and all edges are empty.",
+  "Snippet attribution: search results are a model summary over several pages; each number is attached to the result URL that most plausibly carries it, but the exact URL-to-figure mapping was not verified by reading the page.",
+  "source.date: most snippets only say '2026' (title year) without a month, so date is '2026' (not YYYY-MM) unless a month was visible (e.g. 2026-03, 2026-04, 2026-07, 2026-08).",
+  "EDGES - none researched (budget exhausted): bangkok-chiangmai train, bangkok-chiangmai flight, bangkok-singapore flight, bangkok-hanoi flight, bangkok-hochiminh flight, hanoi-hochiminh flight, hochiminh-singapore flight, hanoi-singapore flight.",
+  "HO CHI MINH CITY - everything missing: lodging, food, transit/airport, attractions, restaurants, activities, concerns, reviews, best_months.",
+  "SINGAPORE - everything missing, including Gardens by the Bay (Flower Dome/Cloud Forest) prices, which could not be fetched (domain blocked) or searched (budget).",
+  "HANOI missing: upscale lodging, food_per_day, transit (day cost, airport bus/taxi from Noi Bai), restaurants (Bun Cha Huong Lien, Pho Gia Truyen searches were blocked by budget), activities (Ha Long Bay day trip), reviews, best_months. Only 4 attractions.",
+  "CHIANG MAI missing: food_per_day mid/comfort (only per-dish 150-220 THB at mid-range restaurants was found), transit day_cost/pass, best_months, only 3 attractions (Sunday Walking Street / Wualai Saturday market hours found, 4pm-midnight Sun and 5-11pm Sat, but no source stating free entry, so left out), only 1 review.",
+  "BANGKOK missing: food_per_day comfort; upscale lodging found only in USD (averages $103-$227 across Booking/aggregators). Somtum Der found only as 250-400 THB per dish (no per-person figure), so not listed.",
+  "Fields left null on purpose (no source): min_nights for all cities; attraction/activity 'hours' (visit duration) everywhere; best_months except Bangkok (Nov-Feb cool season).",
+  "lat/lon are well-known city-centre coordinates from general knowledge, not from a fetched source.",
+  "Conflicts to note: Jim Thompson House 200 vs 250 THB; BTS one-day pass 150 vs 160 THB; Wat Phra Singh 20-50 THB; Doi Suthep 30 vs 50 THB - ranges carry both."
+ ]
+}

@@ -1,0 +1,1095 @@
+{
+ "region": "east_asia",
+ "researched_on": "2026-10-01",
+ "cities": [
+  {
+   "id": "seoul",
+   "name": "Seoul",
+   "name_ko": "서울",
+   "country": "KR",
+   "country_name": "South Korea",
+   "country_ko": "대한민국",
+   "tz": "Asia/Seoul",
+   "currency": "KRW",
+   "lat": 37.57,
+   "lon": 126.98,
+   "min_nights": null,
+   "best_months": null,
+   "lodging": {
+    "hostel": null,
+    "mid": null,
+    "upscale": null
+   },
+   "food_per_day": {
+    "budget": null,
+    "mid": null,
+    "comfort": null
+   },
+   "transit": {
+    "day_cost": null,
+    "pass": null,
+    "airport": null,
+    "notes_ko": "미조사(검색 한도 소진)."
+   },
+   "attractions": [],
+   "restaurants": [],
+   "activities": [],
+   "concerns": [],
+   "reviews": []
+  },
+  {
+   "id": "tokyo",
+   "name": "Tokyo",
+   "name_ko": "도쿄",
+   "country": "JP",
+   "country_name": "Japan",
+   "country_ko": "일본",
+   "tz": "Asia/Tokyo",
+   "currency": "JPY",
+   "lat": 35.68,
+   "lon": 139.76,
+   "min_nights": null,
+   "best_months": null,
+   "lodging": {
+    "hostel": {
+     "min": 3500,
+     "max": 6000,
+     "currency": "JPY",
+     "unit": "per night",
+     "source": {
+      "url": "https://www.tokyotourism.org/tokyo-budget-travel/",
+      "level": "snippet",
+      "date": "2026",
+      "query": "Tokyo travel budget 2026 hostel dorm price per night mid-range hotel luxury hotel yen"
+     }
+    },
+    "mid": {
+     "min": 15000,
+     "max": 30000,
+     "currency": "JPY",
+     "unit": "per night",
+     "source": {
+      "url": "https://www.japantripcost.com/blog/average-hotel-prices-tokyo-2026",
+      "level": "snippet",
+      "date": "2026",
+      "query": "Tokyo travel budget 2026 hostel dorm price per night mid-range hotel luxury hotel yen"
+     }
+    },
+    "upscale": {
+     "min": 40000,
+     "max": 80000,
+     "currency": "JPY",
+     "unit": "per night",
+     "source": {
+      "url": "https://www.machupicchu.org/tokyo-budget-guide-2026-complete-cost-breakdown.htm",
+      "level": "snippet",
+      "date": "2026",
+      "query": "Tokyo travel budget 2026 hostel dorm price per night mid-range hotel luxury hotel yen"
+     }
+    }
+   },
+   "food_per_day": {
+    "budget": null,
+    "mid": {
+     "min": 4000,
+     "max": 7500,
+     "currency": "JPY",
+     "unit": "per day",
+     "source": {
+      "url": "https://www.japanprep.com/logistics/japan-daily-budget-per-day/",
+      "level": "snippet",
+      "date": "2026",
+      "query": "Tokyo daily food budget 2026 yen per day budget mid-range"
+     }
+    },
+    "comfort": null
+   },
+   "transit": {
+    "day_cost": {
+     "min": 1000,
+     "max": 1000,
+     "currency": "JPY",
+     "unit": "per day",
+     "source": {
+      "url": "https://www.tokyotourism.org/tokyo-subway-passes/",
+      "level": "snippet",
+      "date": "2026",
+      "query": "Tokyo Subway Ticket 24 48 72 hour price 2026 Narita Express fare minutes"
+     }
+    },
+    "pass": {
+     "name": "Tokyo Subway Ticket (24/48/72h)",
+     "price": {
+      "min": 1000,
+      "max": 2000,
+      "currency": "JPY",
+      "unit": "per pass",
+      "source": {
+       "url": "https://www.tokyotourism.org/tokyo-subway-passes/",
+       "level": "snippet",
+       "date": "2026",
+       "query": "Tokyo Subway Ticket 24 48 72 hour price 2026 Narita Express fare minutes"
+      }
+     },
+     "covers": "Tokyo Metro + Toei subway 13개 노선 무제한 (24h ¥1,000 / 48h ¥1,500 / 72h ¥2,000). JR선은 미포함"
+    },
+    "airport": {
+     "name": "Narita Express (N'EX)",
+     "price": {
+      "min": 3070,
+      "max": 3250,
+      "currency": "JPY",
+      "unit": "per ride",
+      "source": {
+       "url": "https://japan-key.com/narita-express-fare-guide/",
+       "level": "snippet",
+       "date": "2026",
+       "query": "Tokyo Subway Ticket 24 48 72 hour price 2026 Narita Express fare minutes"
+      }
+     },
+     "minutes": 50
+    },
+    "notes_ko": "day_cost는 Tokyo Subway Ticket 24시간권 가격(지하철만). N'EX 최단 약 50분, 평균 약 1시간 21분. 외국 여권 소지자는 N'EX 왕복권 ¥5,200(14일 유효)."
+   },
+   "attractions": [
+    {
+     "id": "senso-ji",
+     "name": "Senso-ji",
+     "name_ko": "센소지",
+     "tags": [
+      "history",
+      "religion",
+      "culture",
+      "architecture"
+     ],
+     "price": {
+      "min": 0,
+      "max": 0,
+      "currency": "JPY",
+      "unit": "per ticket",
+      "source": {
+       "url": "https://matcha-jp.com/en/3759",
+       "level": "snippet",
+       "date": "2026",
+       "query": "Senso-ji free admission hours; Meiji Jingu shrine free admission"
+      }
+     },
+     "hours": null,
+     "reservation": false,
+     "tip_ko": "경내는 24시간 무료 개방, 본당은 6:00(겨울 6:30)~17:00. 10시 전에 붐비기 시작하니 이른 아침 방문 추천."
+    },
+    {
+     "id": "meiji-jingu",
+     "name": "Meiji Jingu",
+     "name_ko": "메이지 신궁",
+     "tags": [
+      "religion",
+      "history",
+      "nature"
+     ],
+     "price": {
+      "min": 0,
+      "max": 0,
+      "currency": "JPY",
+      "unit": "per ticket",
+      "source": {
+       "url": "https://www.karvaantours.com/blog/meiji-jingu-shrine-guide",
+       "level": "snippet",
+       "date": "2026",
+       "query": "Senso-ji free admission hours; Meiji Jingu shrine free admission"
+      }
+     },
+     "hours": null,
+     "reservation": false,
+     "tip_ko": "본전 구역은 무료, 일출~일몰 개방. 내원(御苑)은 ¥500, 박물관은 ¥1,000 별도."
+    },
+    {
+     "id": "tokyo-skytree",
+     "name": "Tokyo Skytree (Tembo Deck)",
+     "name_ko": "도쿄 스카이트리 전망데크",
+     "tags": [
+      "views",
+      "architecture",
+      "family"
+     ],
+     "price": {
+      "min": 1800,
+      "max": 2600,
+      "currency": "JPY",
+      "unit": "per ticket",
+      "source": {
+       "url": "https://go2-japan.com/tokyo-skytree-tickets/",
+       "level": "snippet",
+       "date": "2026",
+       "query": "Tokyo Skytree admission fee 2026 Tembo Deck weekday weekend yen"
+      }
+     },
+     "hours": null,
+     "reservation": false,
+     "tip_ko": "2026년 4월부터 날짜별 변동가. 온라인 사전 예매가 현장보다 ¥300~400 싸고 대기줄도 피한다."
+    },
+    {
+     "id": "teamlab-planets",
+     "name": "teamLab Planets TOKYO",
+     "name_ko": "팀랩 플래닛",
+     "tags": [
+      "art",
+      "family"
+     ],
+     "price": {
+      "min": 3600,
+      "max": 4200,
+      "currency": "JPY",
+      "unit": "per ticket",
+      "source": {
+       "url": "https://www.teamlab.art/e/planets/",
+       "level": "snippet",
+       "date": "2026",
+       "query": "teamLab Planets Tokyo ticket price 2026 adult yen"
+      }
+     },
+     "hours": null,
+     "reservation": true,
+     "tip_ko": "변동가(주말이 더 비쌈). 무릎 높이 물을 걸으므로 걷어올리기 쉬운 바지 착용. 오전 슬롯은 일주일 전에도 매진될 수 있다."
+    },
+    {
+     "id": "shibuya-sky",
+     "name": "SHIBUYA SKY",
+     "name_ko": "시부야 스카이",
+     "tags": [
+      "views",
+      "nightlife"
+     ],
+     "price": {
+      "min": 2700,
+      "max": 3400,
+      "currency": "JPY",
+      "unit": "per ticket",
+      "source": {
+       "url": "https://www.japan-travel-kit.com/guides/attractions/shibuya-sky-tickets",
+       "level": "snippet",
+       "date": "2026",
+       "query": "Shibuya Sky ticket price 2026 online adult yen"
+      }
+     },
+     "hours": null,
+     "reservation": true,
+     "tip_ko": "온라인 예매는 방문 14일 전 자정(일본시간) 오픈. 15시 이전 ¥2,700, 이후 ¥3,400. 일몰 슬롯은 빨리 매진."
+    },
+    {
+     "id": "shinjuku-gyoen",
+     "name": "Shinjuku Gyoen National Garden",
+     "name_ko": "신주쿠 교엔",
+     "tags": [
+      "nature"
+     ],
+     "price": {
+      "min": 500,
+      "max": 500,
+      "currency": "JPY",
+      "unit": "per ticket",
+      "source": {
+       "url": "https://japanactivity.com/attractions/tokyo/shinjuku-gyoen",
+       "level": "snippet",
+       "date": "2026",
+       "query": "Shinjuku Gyoen admission fee 2026 adult; Tokyo National Museum admission fee adult 2026"
+      }
+     },
+     "hours": null,
+     "reservation": false,
+     "tip_ko": "성인 입장료 ¥500. 벚꽃 명소."
+    },
+    {
+     "id": "tokyo-national-museum",
+     "name": "Tokyo National Museum",
+     "name_ko": "도쿄 국립박물관",
+     "tags": [
+      "history",
+      "art",
+      "culture"
+     ],
+     "price": {
+      "min": 1000,
+      "max": 1000,
+      "currency": "JPY",
+      "unit": "per ticket",
+      "source": {
+       "url": "https://www.tnm.jp/modules/r_free_page/index.php?id=156&lang=en",
+       "level": "snippet",
+       "date": "2026",
+       "query": "Shinjuku Gyoen admission fee 2026 adult; Tokyo National Museum admission fee adult 2026"
+      }
+     },
+     "hours": null,
+     "reservation": false,
+     "tip_ko": "상설전(종합문화전) 성인 ¥1,000. 특별전은 별도 요금."
+    }
+   ],
+   "restaurants": [
+    {
+     "name": "Ichiran (Shibuya)",
+     "kind": "ramen",
+     "tier": "budget",
+     "price": {
+      "min": 1080,
+      "max": 1180,
+      "currency": "JPY",
+      "unit": "per person",
+      "source": {
+       "url": "https://hontojapan.com/ichiran-price/",
+       "level": "snippet",
+       "date": "2026-07",
+       "query": "Ichiran ramen Shibuya price bowl yen 2026"
+      }
+     },
+     "tip_ko": "2026년 7월 1일 가격 개정 후 기본 돈코츠 ¥1,180(자료에 따라 ¥1,080). 면 추가 ¥210."
+    },
+    {
+     "name": "Tsukiji Sushiko (outer market shop)",
+     "kind": "sushi",
+     "tier": "mid",
+     "price": {
+      "min": 2000,
+      "max": 2000,
+      "currency": "JPY",
+      "unit": "per person",
+      "source": {
+       "url": "https://www.timeout.com/tokyo/restaurants/tsukiji-sushiko-outer-market-shop",
+       "level": "snippet",
+       "date": "2026",
+       "query": "Tokyo sushi omakase lunch price yen Tsukiji outer market sushi set price 2026"
+      }
+     },
+     "tip_ko": "쓰키지 장외시장. 대표 세트 'Sushiko' ¥2,000."
+    },
+    {
+     "name": "Tsukiji Sushi Sei Honten",
+     "kind": "sushi",
+     "tier": "mid",
+     "price": {
+      "min": 3850,
+      "max": 3850,
+      "currency": "JPY",
+      "unit": "per person",
+      "source": {
+       "url": "https://omakaseje.com/articles/ex608360",
+       "level": "snippet",
+       "date": "2026",
+       "query": "Tokyo sushi omakase lunch price yen Tsukiji outer market sushi set price 2026"
+      }
+     },
+     "tip_ko": "11관 오마카세 세트 ¥3,850. 고급 오마카세도 점심이 저녁의 약 절반 가격."
+    }
+   ],
+   "activities": [
+    {
+     "name": "Sushi Making Tokyo (class)",
+     "name_ko": "스시 만들기 클래스",
+     "tags": [
+      "food",
+      "culture"
+     ],
+     "price": {
+      "min": 13000,
+      "max": 13000,
+      "currency": "JPY",
+      "unit": "per person",
+      "source": {
+       "url": "https://sushimakingjapan.com/tokyo",
+       "level": "snippet",
+       "date": "2026",
+       "query": "Tokyo sumo or sushi making class price yen; Mount Fuji Hakone day trip tour price yen 2026"
+      }
+     },
+     "hours": null
+    },
+    {
+     "name": "NOBU Sushi Making Class TOKYO",
+     "name_ko": "NOBU 스시 클래스",
+     "tags": [
+      "food",
+      "culture"
+     ],
+     "price": {
+      "min": 19500,
+      "max": 19500,
+      "currency": "JPY",
+      "unit": "per person",
+      "source": {
+       "url": "https://www.tokyosushimaking.com/price-list/",
+       "level": "snippet",
+       "date": "2026",
+       "query": "Tokyo sumo or sushi making class price yen; Mount Fuji Hakone day trip tour price yen 2026"
+      }
+     },
+     "hours": null
+    },
+    {
+     "name": "Mt. Fuji & Hakone group day tour from Tokyo",
+     "name_ko": "후지산·하코네 당일 투어",
+     "tags": [
+      "nature",
+      "views"
+     ],
+     "price": {
+      "min": 10000,
+      "max": 15000,
+      "currency": "JPY",
+      "unit": "per person",
+      "source": {
+       "url": "https://www.machupicchu.org/mt-fuji-hakone-day-trip-from-tokyo-2026-travel-planning-guide.htm",
+       "level": "snippet",
+       "date": "2026",
+       "query": "Tokyo sumo or sushi making class price yen; Mount Fuji Hakone day trip tour price yen 2026"
+      }
+     },
+     "hours": null
+    }
+   ],
+   "concerns": [
+    {
+     "topic": "scam",
+     "text_ko": "가부키초 등 유흥가에서 '친구'처럼 말을 거는 호객꾼이 바가지 술집(봇타쿠리)으로 데려간다. 길거리 호객을 따라 간판 없는 가게에 들어가지 말 것.",
+     "source": {
+      "url": "https://tokyopaladin.substack.com/p/that-guy-calling-you-friend-in-kabukicho",
+      "level": "snippet",
+      "date": "2026-10",
+      "query": "Tokyo tourist scams Kabukicho bar touts warning reddit"
+     }
+    },
+    {
+     "topic": "safety",
+     "text_ko": "롯폰기 바에서 음료 약물 투입 신고가 늘어 미국 대사관이 롯폰기 바 방문 자제를 권고한 적이 있다(오래된 보도).",
+     "source": {
+      "url": "https://www.nbcnews.com/id/wbna29751922",
+      "level": "snippet",
+      "date": "2009",
+      "query": "Tokyo tourist scams Kabukicho bar touts warning reddit"
+     }
+    },
+    {
+     "topic": "reservation",
+     "text_ko": "시부야 스카이는 당일권이 거의 없고 일몰 시간대가 먼저 매진된다. 팀랩 플래닛도 오전 슬롯이 일주일 전에 매진될 수 있다.",
+     "source": {
+      "url": "https://www.japan-travel-kit.com/guides/attractions/shibuya-sky-tickets",
+      "level": "snippet",
+      "date": "2026",
+      "query": "Shibuya Sky ticket price 2026 online adult yen"
+     }
+    },
+    {
+     "topic": "cash",
+     "text_ko": "도쿄·오사카·교토 대도시는 카드·IC카드가 대부분 되지만, 신사·사찰 입장료, 작은 이자카야, 노점, 자판기는 여전히 현금만 받는 곳이 많다. 1~2만 엔 정도 현금을 들고 다니고 세븐일레븐·우체국 ATM을 쓰면 된다.",
+     "source": {
+      "url": "https://glostravel.com/en/article/how-to-pay-in-japan-2026",
+      "level": "snippet",
+      "date": "2026",
+      "query": "Japan cash only restaurants tourists 2026 still need cash; Japan tax-free shopping refund system change November 2026"
+     }
+    },
+    {
+     "topic": "cash",
+     "text_ko": "2026년 11월 1일부터 면세 제도가 바뀌어 매장에서는 세금 포함 가격을 내고 출국 시 환급을 신청하는 방식이 된다. 출국 전 90일 안에 산 물건만 대상이다.",
+     "source": {
+      "url": "https://www.japan.travel/en/us/blog/everything-you-need-to-know-japans-new-tax-free-shopping-system/",
+      "level": "snippet",
+      "date": "2026",
+      "query": "Japan cash only restaurants tourists 2026 still need cash; Japan tax-free shopping refund system change November 2026"
+     }
+    }
+   ],
+   "reviews": [
+    {
+     "about": "Senso-ji",
+     "sentiment": "mixed",
+     "summary_ko": "이른 아침(8시 전)엔 조용하고 평화롭지만 10시쯤부터 인파가 몰린다는 후기. 대신 아침엔 나카미세 상점이 닫혀 있다.",
+     "source": {
+      "url": "https://www.tripadvisor.com/ShowUserReviews-g14134311-d320447-r328643366-Senso_ji_Temple-Asakusa_Taito_Tokyo_Tokyo_Prefecture_Kanto.html",
+      "level": "snippet",
+      "date": "2026-10",
+      "query": "Senso-ji tripadvisor reviews crowded early morning"
+     }
+    },
+    {
+     "about": "teamLab Planets",
+     "sentiment": "pos",
+     "summary_ko": "인스타용 관광 함정일 줄 알았는데 여행의 하이라이트였다는 방문기. 평일·이른 시간 방문과 사전 예매를 권한다.",
+     "source": {
+      "url": "https://www.aol.com/news/thought-tokyo-attraction-major-tourist-112201535.html",
+      "level": "snippet",
+      "date": "2026-10",
+      "query": "teamLab Planets review worth it crowded water knee reddit"
+     }
+    }
+   ]
+  },
+  {
+   "id": "kyoto",
+   "name": "Kyoto",
+   "name_ko": "교토",
+   "country": "JP",
+   "country_name": "Japan",
+   "country_ko": "일본",
+   "tz": "Asia/Tokyo",
+   "currency": "JPY",
+   "lat": 35.01,
+   "lon": 135.77,
+   "min_nights": null,
+   "best_months": null,
+   "lodging": {
+    "hostel": {
+     "min": 3500,
+     "max": 7000,
+     "currency": "JPY",
+     "unit": "per night",
+     "source": {
+      "url": "https://tourismattractions.net/japan/best-budget-hotels-in-kyoto",
+      "level": "snippet",
+      "date": "2026",
+      "query": "Kyoto hotel prices 2026 per night hostel mid-range luxury yen"
+     }
+    },
+    "mid": {
+     "min": 10000,
+     "max": 20000,
+     "currency": "JPY",
+     "unit": "per night",
+     "source": {
+      "url": "https://www.insidekyoto.com/how-much-money-do-i-need-for-kyoto",
+      "level": "snippet",
+      "date": "2026",
+      "query": "Kyoto hotel prices 2026 per night hostel mid-range luxury yen"
+     }
+    },
+    "upscale": {
+     "min": 20000,
+     "max": 50000,
+     "currency": "JPY",
+     "unit": "per night",
+     "source": {
+      "url": "https://www.insidekyoto.com/how-much-money-do-i-need-for-kyoto",
+      "level": "snippet",
+      "date": "2026",
+      "query": "Kyoto hotel prices 2026 per night hostel mid-range luxury yen"
+     }
+    }
+   },
+   "food_per_day": {
+    "budget": null,
+    "mid": null,
+    "comfort": null
+   },
+   "transit": {
+    "day_cost": {
+     "min": 1100,
+     "max": 1100,
+     "currency": "JPY",
+     "unit": "per day",
+     "source": {
+      "url": "https://glostravel.com/en/article/kyoto-autumn-getting-around",
+      "level": "snippet",
+      "date": "2026",
+      "query": "Kyoto bus one-day pass abolished subway bus 1 day pass price 2026; Haruka Kansai airport to Kyoto fare minutes"
+     }
+    },
+    "pass": {
+     "name": "Subway & Bus 1-Day Pass",
+     "price": {
+      "min": 1100,
+      "max": 1100,
+      "currency": "JPY",
+      "unit": "per pass",
+      "source": {
+       "url": "https://glostravel.com/en/article/kyoto-autumn-getting-around",
+       "level": "snippet",
+       "date": "2026",
+       "query": "Kyoto bus one-day pass abolished subway bus 1 day pass price 2026; Haruka Kansai airport to Kyoto fare minutes"
+      }
+     },
+     "covers": "교토 시영 지하철 + 시버스 1일 무제한. 버스 전용 1일권(¥700)은 2024년 3월로 폐지"
+    },
+    "airport": {
+     "name": "JR Limited Express Haruka (Kansai Airport)",
+     "price": {
+      "min": 3060,
+      "max": 3590,
+      "currency": "JPY",
+      "unit": "per ride",
+      "source": {
+       "url": "https://www.kyotostation.com/traveling-between-kyoto-and-kansai-international-airport/",
+       "level": "snippet",
+       "date": "2026",
+       "query": "Kyoto bus one-day pass abolished subway bus 1 day pass price 2026; Haruka Kansai airport to Kyoto fare minutes"
+      }
+     },
+     "minutes": 80
+    },
+    "notes_ko": "하루카 자유석 ¥3,060 / 지정석 ¥3,590, 약 75~90분. 시버스가 혼잡하니 지하철·JR·사철 위주로 이동 권장."
+   },
+   "attractions": [
+    {
+     "id": "fushimi-inari",
+     "name": "Fushimi Inari Taisha",
+     "name_ko": "후시미 이나리 신사",
+     "tags": [
+      "religion",
+      "history",
+      "nature"
+     ],
+     "price": {
+      "min": 0,
+      "max": 0,
+      "currency": "JPY",
+      "unit": "per ticket",
+      "source": {
+       "url": "https://fushimi-inari.com/entrance-fee/",
+       "level": "snippet",
+       "date": "2026",
+       "query": "Fushimi Inari free admission; Arashiyama Tenryu-ji garden admission fee 2026; Nijo Castle admission fee 2026"
+      }
+     },
+     "hours": null,
+     "reservation": false,
+     "tip_ko": "무료, 24시간 개방. 낮엔 붐비니 이른 아침이나 저녁 방문."
+    },
+    {
+     "id": "kinkaku-ji",
+     "name": "Kinkaku-ji (Golden Pavilion)",
+     "name_ko": "킨카쿠지(금각사)",
+     "tags": [
+      "history",
+      "religion",
+      "architecture"
+     ],
+     "price": {
+      "min": 500,
+      "max": 500,
+      "currency": "JPY",
+      "unit": "per ticket",
+      "source": {
+       "url": "https://www.shokoku-ji.jp/en/kinkakuji/access/",
+       "level": "snippet",
+       "date": "2026",
+       "query": "Kinkaku-ji admission fee 2026; Kiyomizu-dera admission fee 2026 adult yen"
+      }
+     },
+     "hours": null,
+     "reservation": false,
+     "tip_ko": "성인 ¥500. 예약 불필요."
+    },
+    {
+     "id": "kiyomizu-dera",
+     "name": "Kiyomizu-dera",
+     "name_ko": "기요미즈데라",
+     "tags": [
+      "history",
+      "religion",
+      "views",
+      "architecture"
+     ],
+     "price": {
+      "min": 500,
+      "max": 500,
+      "currency": "JPY",
+      "unit": "per ticket",
+      "source": {
+       "url": "https://onedayawaytravel.com/kiyomizudera-tickets/",
+       "level": "snippet",
+       "date": "2026",
+       "query": "Kinkaku-ji admission fee 2026; Kiyomizu-dera admission fee 2026 adult yen"
+      }
+     },
+     "hours": null,
+     "reservation": false,
+     "tip_ko": "성인 ¥500. 2026년 가을 야간 특별관람은 11/21~30."
+    },
+    {
+     "id": "tenryu-ji",
+     "name": "Tenryu-ji (Sogenchi Garden)",
+     "name_ko": "덴류지",
+     "tags": [
+      "history",
+      "religion",
+      "nature"
+     ],
+     "price": {
+      "min": 500,
+      "max": 800,
+      "currency": "JPY",
+      "unit": "per ticket",
+      "source": {
+       "url": "https://explorejapandaily.com/destinations/kyoto/tenryuji",
+       "level": "snippet",
+       "date": "2026",
+       "query": "Fushimi Inari free admission; Arashiyama Tenryu-ji garden admission fee 2026; Nijo Castle admission fee 2026"
+      }
+     },
+     "hours": null,
+     "reservation": false,
+     "tip_ko": "정원 ¥500, 건물 내부 관람은 ¥300 추가. 아라시야마 대나무숲과 묶어 방문."
+    },
+    {
+     "id": "arashiyama-bamboo",
+     "name": "Arashiyama Bamboo Grove",
+     "name_ko": "아라시야마 대나무숲",
+     "tags": [
+      "nature",
+      "views"
+     ],
+     "price": {
+      "min": 0,
+      "max": 0,
+      "currency": "JPY",
+      "unit": "per ticket",
+      "source": {
+       "url": "https://arashiyamabambooforest.org/entrance-fee/",
+       "level": "snippet",
+       "date": "2026",
+       "query": "Fushimi Inari free admission; Arashiyama Tenryu-ji garden admission fee 2026; Nijo Castle admission fee 2026"
+      }
+     },
+     "hours": null,
+     "reservation": false,
+     "tip_ko": "무료. 인파를 피하려면 이른 아침."
+    },
+    {
+     "id": "nijo-castle",
+     "name": "Nijo-jo Castle (incl. Ninomaru Palace)",
+     "name_ko": "니조성",
+     "tags": [
+      "history",
+      "architecture"
+     ],
+     "price": {
+      "min": 1300,
+      "max": 1300,
+      "currency": "JPY",
+      "unit": "per ticket",
+      "source": {
+       "url": "https://nijo-jocastle.city.kyoto.lg.jp/admission/fee/?lang=en",
+       "level": "snippet",
+       "date": "2026",
+       "query": "Fushimi Inari free admission; Arashiyama Tenryu-ji garden admission fee 2026; Nijo Castle admission fee 2026"
+      }
+     },
+     "hours": null,
+     "reservation": false,
+     "tip_ko": "성 입장 + 니노마루 고텐 성인 ¥1,300."
+    }
+   ],
+   "restaurants": [],
+   "activities": [],
+   "concerns": [
+    {
+     "topic": "etiquette",
+     "text_ko": "기온의 사유 골목에서는 사진 촬영이 금지돼 있고 위반 시 ¥10,000 벌금. 하나미코지·시라카와 같은 큰길에서는 촬영 가능, 게이코·마이코를 쫓아가지 말 것.",
+     "source": {
+      "url": "https://www.timeout.com/tokyo/news/kyotos-gion-geisha-district-bans-photos-on-private-streets-and-introduces-10-000-fine-102919",
+      "level": "snippet",
+      "date": "2024",
+      "query": "Gion private alleys photography ban fine geisha tourists Kyoto"
+     }
+    },
+    {
+     "topic": "cash",
+     "text_ko": "2026년 3월부터 교토 숙박세가 1박 1인 기준 ¥200~¥10,000으로 인상(¥6,000~2만 미만 ¥400, 2만~5만 미만 ¥1,000 등). 숙박비 외에 추가로 붙는다.",
+     "source": {
+      "url": "https://kyoto.travel/en/news/tax-change/",
+      "level": "snippet",
+      "date": "2026-03",
+      "query": "Kyoto accommodation tax increase March 2026 per night amounts"
+     }
+    },
+    {
+     "topic": "transport",
+     "text_ko": "버스 혼잡 대책으로 버스 전용 1일권이 폐지됐다. 시버스는 관광객으로 붐비므로 지하철·전철 위주로 계획할 것.",
+     "source": {
+      "url": "https://www.timeout.com/tokyo/news/kyoto-will-stop-selling-the-one-day-bus-pass-to-tackle-overtourism-040523",
+      "level": "snippet",
+      "date": "2023",
+      "query": "Kyoto bus one-day pass abolished subway bus 1 day pass price 2026; Haruka Kansai airport to Kyoto fare minutes"
+     }
+    },
+    {
+     "topic": "cash",
+     "text_ko": "도쿄·오사카·교토 대도시는 카드·IC카드가 대부분 되지만, 신사·사찰 입장료, 작은 이자카야, 노점, 자판기는 여전히 현금만 받는 곳이 많다. 1~2만 엔 정도 현금을 들고 다니고 세븐일레븐·우체국 ATM을 쓰면 된다.",
+     "source": {
+      "url": "https://glostravel.com/en/article/how-to-pay-in-japan-2026",
+      "level": "snippet",
+      "date": "2026",
+      "query": "Japan cash only restaurants tourists 2026 still need cash; Japan tax-free shopping refund system change November 2026"
+     }
+    }
+   ],
+   "reviews": []
+  },
+  {
+   "id": "osaka",
+   "name": "Osaka",
+   "name_ko": "오사카",
+   "country": "JP",
+   "country_name": "Japan",
+   "country_ko": "일본",
+   "tz": "Asia/Tokyo",
+   "currency": "JPY",
+   "lat": 34.69,
+   "lon": 135.5,
+   "min_nights": null,
+   "best_months": null,
+   "lodging": {
+    "hostel": null,
+    "mid": null,
+    "upscale": null
+   },
+   "food_per_day": {
+    "budget": null,
+    "mid": null,
+    "comfort": null
+   },
+   "transit": {
+    "day_cost": null,
+    "pass": null,
+    "airport": null,
+    "notes_ko": "미조사(검색 한도 소진)."
+   },
+   "attractions": [],
+   "restaurants": [],
+   "activities": [],
+   "concerns": [
+    {
+     "topic": "cash",
+     "text_ko": "도쿄·오사카·교토 대도시는 카드·IC카드가 대부분 되지만, 신사·사찰 입장료, 작은 이자카야, 노점, 자판기는 여전히 현금만 받는 곳이 많다. 1~2만 엔 정도 현금을 들고 다니고 세븐일레븐·우체국 ATM을 쓰면 된다.",
+     "source": {
+      "url": "https://glostravel.com/en/article/how-to-pay-in-japan-2026",
+      "level": "snippet",
+      "date": "2026",
+      "query": "Japan cash only restaurants tourists 2026 still need cash; Japan tax-free shopping refund system change November 2026"
+     }
+    },
+    {
+     "topic": "cash",
+     "text_ko": "2026년 11월 1일부터 면세 제도가 바뀌어 매장에서는 세금 포함 가격을 내고 출국 시 환급을 신청하는 방식이 된다. 출국 전 90일 안에 산 물건만 대상이다.",
+     "source": {
+      "url": "https://www.japan.travel/en/us/blog/everything-you-need-to-know-japans-new-tax-free-shopping-system/",
+      "level": "snippet",
+      "date": "2026",
+      "query": "Japan cash only restaurants tourists 2026 still need cash; Japan tax-free shopping refund system change November 2026"
+     }
+    }
+   ],
+   "reviews": []
+  },
+  {
+   "id": "taipei",
+   "name": "Taipei",
+   "name_ko": "타이베이",
+   "country": "TW",
+   "country_name": "Taiwan",
+   "country_ko": "대만",
+   "tz": "Asia/Taipei",
+   "currency": "TWD",
+   "lat": 25.03,
+   "lon": 121.57,
+   "min_nights": null,
+   "best_months": null,
+   "lodging": {
+    "hostel": null,
+    "mid": null,
+    "upscale": null
+   },
+   "food_per_day": {
+    "budget": null,
+    "mid": null,
+    "comfort": null
+   },
+   "transit": {
+    "day_cost": null,
+    "pass": null,
+    "airport": null,
+    "notes_ko": "미조사(검색 한도 소진)."
+   },
+   "attractions": [],
+   "restaurants": [],
+   "activities": [],
+   "concerns": [],
+   "reviews": []
+  }
+ ],
+ "edges": [
+  {
+   "from": "tokyo",
+   "to": "kyoto",
+   "mode": "train",
+   "hours": null,
+   "price": {
+    "min": 13870,
+    "max": 14880,
+    "currency": "JPY",
+    "unit": "per person",
+    "source": {
+     "url": "https://real-japan-guide.com/shinkansen-complete-guide-2026/",
+     "level": "snippet",
+     "date": "2026",
+     "query": "Tokyo to Kyoto Nozomi shinkansen fare reserved seat 2026 yen"
+    }
+   },
+   "frequency_ko": "미확인",
+   "notes_ko": "노조미 보통차 지정석. 비수기 약 ¥13,870 / 통상 ¥14,370 / 성수기 약 ¥14,880. 성수기 지정일에는 노조미 전석 지정석."
+  },
+  {
+   "from": "kyoto",
+   "to": "osaka",
+   "mode": "train",
+   "hours": 0.47,
+   "price": {
+    "min": 580,
+    "max": 580,
+    "currency": "JPY",
+    "unit": "per person",
+    "source": {
+     "url": "https://www.kyotostation.com/traveling-from-kyoto-to-osaka/",
+     "level": "snippet",
+     "date": "2026",
+     "query": "Kyoto to Osaka JR Special Rapid fare yen minutes"
+    }
+   },
+   "frequency_ko": "미확인",
+   "notes_ko": "JR 교토선 신쾌속, 교토→오사카역 약 28분, 환승 없음."
+  },
+  {
+   "from": "tokyo",
+   "to": "osaka",
+   "mode": "train",
+   "hours": 2.35,
+   "price": {
+    "min": 14520,
+    "max": 15120,
+    "currency": "JPY",
+    "unit": "per person",
+    "source": {
+     "url": "https://tokyocheapo.com/travel/transport/tokyo-to-osaka-fast-cheap/",
+     "level": "snippet",
+     "date": "2026-03",
+     "query": "Tokyo to Shin-Osaka Nozomi fare 2026 reserved seat yen"
+    }
+   },
+   "frequency_ko": "미확인",
+   "notes_ko": "도쿄→신오사카 노조미 지정석 통상 ¥14,720(2026-03-14 개정 운임). 비수기 -¥200, 성수기 +¥200, 최성수기 +¥400. 약 2시간 21분."
+  },
+  {
+   "from": "seoul",
+   "to": "tokyo",
+   "mode": "flight",
+   "hours": 2.25,
+   "price": {
+    "min": 93700,
+    "max": 93700,
+    "currency": "KRW",
+    "unit": "per person",
+    "source": {
+     "url": "https://www.expedia.co.kr/en/lp/flights/icn/nrt/seoul-to-tokyo",
+     "level": "snippet",
+     "date": "2026-10",
+     "query": "Seoul to Tokyo flight one way price KRW 2026 low cost"
+    }
+   },
+   "frequency_ko": "미확인",
+   "notes_ko": "₩93,700은 ICN→NRT 편도 최저가 표시값(가격 하한). ICN→HND 약 2시간 15분, ICN→NRT 약 2시간 30분."
+  },
+  {
+   "from": "seoul",
+   "to": "osaka",
+   "mode": "flight",
+   "hours": 1.75,
+   "price": {
+    "min": 49,
+    "max": 64,
+    "currency": "USD",
+    "unit": "per person",
+    "source": {
+     "url": "https://www.expedia.com/lp/flights/icn/kix/seoul-to-osaka",
+     "level": "snippet",
+     "date": "2026-10",
+     "query": "Seoul Incheon to Osaka Kansai one way flight price won 2026"
+    }
+   },
+   "frequency_ko": "미확인",
+   "notes_ko": "저가항공 편도 최저가대(USD). 대한항공 편도 약 $85~300, 아시아나 약 $80~275. 비행 약 1시간 45분."
+  },
+  {
+   "from": "seoul",
+   "to": "taipei",
+   "mode": "flight",
+   "hours": 2.75,
+   "price": {
+    "min": 71,
+    "max": 111,
+    "currency": "USD",
+    "unit": "per person",
+    "source": {
+     "url": "https://www.expedia.com/lp/flights/icn/tpe/seoul-to-taipei",
+     "level": "snippet",
+     "date": "2026-10",
+     "query": "Seoul to Taipei flight one way cheap price 2026 flight time"
+    }
+   },
+   "frequency_ko": "미확인",
+   "notes_ko": "ICN→TPE 편도 최저가대(USD), 타이거에어 타이완 $71부터. 김포→송산은 $107부터. 비행 약 2시간 45분."
+  },
+  {
+   "from": "tokyo",
+   "to": "taipei",
+   "mode": "flight",
+   "hours": 3.7,
+   "price": {
+    "min": 100,
+    "max": 440,
+    "currency": "USD",
+    "unit": "per person",
+    "source": {
+     "url": "https://www.expedia.com/lp/flights/tyo/tpe/tokyo-to-taipei",
+     "level": "snippet",
+     "date": "2026-10",
+     "query": "Tokyo to Taipei one way flight cheap price yen 2026"
+    }
+   },
+   "frequency_ko": "미확인",
+   "notes_ko": "스쿠트 편도 $100~440, 젯스타 재팬 $100~315(USD). 직항 약 3시간 35분~4시간 15분."
+  },
+  {
+   "from": "osaka",
+   "to": "taipei",
+   "mode": "flight",
+   "hours": 3.0,
+   "price": {
+    "min": 101,
+    "max": 126,
+    "currency": "USD",
+    "unit": "per person",
+    "source": {
+     "url": "https://www.skyscanner.com/routes/kix/tpe/kansai-international-osaka-to-taipei-taiwan-taoyuan.html",
+     "level": "snippet",
+     "date": "2026-10",
+     "query": "Osaka Kansai to Taipei one way flight price yen 2026 Peach"
+    }
+   },
+   "frequency_ko": "하루 약 17~19편 직항",
+   "notes_ko": "KIX→TPE 편도 최저가대(USD, 스카이스캐너 $101 / 익스피디아 $126). 비행 약 3시간."
+  }
+ ],
+ "gaps": [
+  "WebFetch가 이 환경에서 모든 도메인에 막혀(EGRESS_BLOCKED: navitime, tokyocheapo, selfguidejapan, wikipedia, japan-guide, kyotostation) 전문을 읽은 출처가 0개다. 모든 source.level은 snippet이다.",
+  "WebSearch 세션 한도(200/200)가 조사 도중 소진되었다. 그래서 Osaka, Seoul, Taipei는 숙박·식비·교통·명소·식당·액티비티·후기를 하나도 조사하지 못했다(빈 목록/null).",
+  "Kyoto: 1일 식비, 식당, 액티비티(다도·기모노 등), 후기 미조사.",
+  "Tokyo: 1일 식비 budget/comfort 단계, 관광지 소요시간 미조사.",
+  "모든 attractions/activities의 hours는 출처가 없어 null로 두었다.",
+  "모든 도시의 min_nights, best_months는 출처가 없어 null. lat/lon/tz는 출처 없이 일반 지리 정보로 채웠다.",
+  "검색 요약이 여러 결과를 섞어 보여 주므로, 일부 가격(교토 숙박 mid/upscale, 덴류지, 쓰키지 스시 세이, 도쿄 숙박)은 어느 결과 페이지에서 나온 수인지 1:1로 확정하지 못했다. 그 결과 목록 중 가장 그럴듯한 페이지를 url로 적었다.",
+  "교토 upscale 상한 50,000엔은 '고급 료칸은 약 5만 엔부터'라는 문구에서 가져온 것이라 실제 상한이 아니다.",
+  "Tokyo day_cost는 Tokyo Subway Ticket 24시간권 가격으로 대신했다(실제 평균 일일 교통비 아님).",
+  "엣지 tokyo-kyoto의 소요시간, 그리고 osaka-taipei를 뺀 모든 엣지의 운행 빈도를 찾지 못했다.",
+  "항공 엣지 가격은 OTA 랜딩 페이지에 뜬 '최저가부터' 값이다(USD, seoul-tokyo만 KRW). 날짜에 따라 변하고 수하물 요금은 빠져 있을 수 있다. 원화·엔화로 환산하지 않았다.",
+  "Tokyo 롯폰기 음료 약물 투입 우려의 출처는 2009년 보도라 지금도 그런지는 확인하지 못했다. Gion 촬영 금지와 교토 버스 1일권 폐지 출처는 2023~2024년 자료다.",
+  "source.date는 출처에 날짜가 없으면 '2026'(자료에 적힌 해) 또는 '2026-10'(조회 시점)으로 적었다."
+ ]
+}
