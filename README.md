@@ -33,6 +33,21 @@ worldtrip plan 요청.json · worldtrip city kyoto · worldtrip status
 | 화면 검사: gentleMonster 엔진 심판의 V(넘침 · 대비 · 12px · 외부 요청 0 · …) | gentleMonster `python3 -m gentle_monster.apps.check` |
 | 값 검사: T0–T7 (돈을 날짜별로 다시 더한다) | 이 저장소 `worldtrip/judge.py` |
 
+## worldplan 과 같이 쓰기
+
+[worldplan](https://github.com/cogito5170/worldplan)(여러 시간대 회의 배치)과 같은 갈래다 — 엔진은 각 저장소에, 화면은
+gentleMonster `apps/` 에. worldplan 의 도우미(물어보기)는 이 엔진이 깔려 있으면 `worldtrip` MCP 도구를 숙고층(Claude 또는 Gemini)에
+같이 붙인다 — "11월에 파리 · 로마 일주일, 그동안 서울 팀과 회의는 언제?" 를 한 대화에서 묻는다.
+
+맥에서 둘을 함께 깔고 Gemini CLI 에 붙이기(worldplan 쪽 스크립트가 이 저장소도 깐다):
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/cogito5170/worldplan/main/scripts/setup_mac.sh | bash
+worldtrip app        # 세계여행 화면
+worldplan app        # 회의 배치 화면 + 도우미
+gemini               # worldplan · worldtrip 도구가 붙은 대화창
+```
+
 ## 먼저 알아야 할 것 — 데이터의 한계
 
 | | |
