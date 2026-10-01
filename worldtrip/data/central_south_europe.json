@@ -1,0 +1,1392 @@
+{
+ "region": "central_south_europe",
+ "researched_on": "2026-10-01",
+ "cities": [
+  {
+   "id": "rome",
+   "name": "Rome",
+   "name_ko": "로마",
+   "country": "IT",
+   "country_name": "Italy",
+   "country_ko": "이탈리아",
+   "tz": "Europe/Rome",
+   "currency": "EUR",
+   "lat": 41.9,
+   "lon": 12.5,
+   "min_nights": 3,
+   "best_months": [],
+   "lodging": {
+    "hostel": {
+     "min": 30,
+     "max": 65,
+     "currency": "EUR",
+     "unit": "per night",
+     "source": {
+      "url": "https://www.neverendingfootsteps.com/cost-of-travel-rome-budget/",
+      "level": "snippet",
+      "date": "2026-10",
+      "query": "Rome travel cost 2026 hostel dorm per night mid-range hotel price daily food budget"
+     }
+    },
+    "mid": {
+     "min": 80,
+     "max": 150,
+     "currency": "EUR",
+     "unit": "per night",
+     "source": {
+      "url": "https://visitrome.com/rome/travel-guides/common-rome-questions/is-rome-expensive",
+      "level": "snippet",
+      "date": "2026-10",
+      "query": "Rome travel cost 2026 hostel dorm per night mid-range hotel price daily food budget"
+     }
+    },
+    "upscale": null
+   },
+   "food_per_day": {
+    "budget": {
+     "min": 30,
+     "max": 50,
+     "currency": "EUR",
+     "unit": "per day",
+     "source": {
+      "url": "https://blog.intripp.com/rome/how-expensive-is-rome-for-tourists-in-2026-real-daily-budget-breakdown",
+      "level": "snippet",
+      "date": "2026-10",
+      "query": "Rome travel cost 2026 hostel dorm per night mid-range hotel price daily food budget"
+     }
+    },
+    "mid": {
+     "min": 60,
+     "max": 100,
+     "currency": "EUR",
+     "unit": "per day",
+     "source": {
+      "url": "https://blog.intripp.com/rome/how-expensive-is-rome-for-tourists-in-2026-real-daily-budget-breakdown",
+      "level": "snippet",
+      "date": "2026-10",
+      "query": "Rome travel cost 2026 hostel dorm per night mid-range hotel price daily food budget"
+     }
+    },
+    "comfort": null
+   },
+   "transit": {
+    "day_cost": {
+     "min": 8.5,
+     "max": 8.5,
+     "currency": "EUR",
+     "unit": "per pass",
+     "source": {
+      "url": "https://publictransportguide.com/rome-metro-ticket-prices-2026/",
+      "level": "snippet",
+      "date": "2026-10",
+      "query": "Rome public transport ticket price 2026 BIT 1.50 24 hour ticket ATAC"
+     }
+    },
+    "pass": {
+     "name": "ROMA 72h (ATAC)",
+     "price": {
+      "min": 22,
+      "max": 22,
+      "currency": "EUR",
+      "unit": "per pass",
+      "source": {
+       "url": "https://publictransportguide.com/rome-metro-ticket-prices-2026/",
+       "level": "snippet",
+       "date": "2026-10",
+       "query": "Rome public transport ticket price 2026 BIT 1.50 24 hour ticket ATAC"
+      }
+     },
+     "covers": "ATAC 버스·트램·메트로 72시간 무제한 (48h €15, 24h €8.50도 있음)"
+    },
+    "airport": {
+     "name": "Leonardo Express (Fiumicino-Termini)",
+     "price": {
+      "min": 14,
+      "max": 14,
+      "currency": "EUR",
+      "unit": "per ride",
+      "source": {
+       "url": "https://bluekeys.it/blog/fiumicino-rome-transfer-leonardo-express-train",
+       "level": "snippet",
+       "date": "2026-10",
+       "query": "Leonardo Express Fiumicino Termini price 2026 14 euro minutes"
+      }
+     },
+     "minutes": 32
+    },
+    "notes_ko": "BIT 1회권은 €1.50(100분, 메트로 1회 포함)으로 소개되지만 ATAC 계획상 2026년 7월 €2.00 인상안이 있어 현재 가격 확인 필요. 레오나르도 익스프레스는 트렌이탈리아 공식 채널에서 €14, 재판매 사이트는 약 €17.90."
+   },
+   "attractions": [
+    {
+     "id": "colosseum",
+     "name": "Colosseum, Roman Forum & Palatine Hill",
+     "name_ko": "콜로세움·포로 로마노·팔라티노",
+     "tags": [
+      "history",
+      "architecture"
+     ],
+     "price": {
+      "min": 18,
+      "max": 24,
+      "currency": "EUR",
+      "unit": "per ticket",
+      "source": {
+       "url": "https://www.artvisitguide.com/colosseum-tickets-guide/",
+       "level": "snippet",
+       "date": "2026-10",
+       "query": "Colosseum ticket price 2026 24h Colosseum Forum Palatine 18 euro"
+      }
+     },
+     "hours": 3,
+     "reservation": true,
+     "tip_ko": "€18 기본권(입장 €16+예약 €2)은 24시간 유효, 콜로세움 시간지정 1회+포로·팔라티노 포함. 지하·아레나는 €24 Full Experience 필요."
+    },
+    {
+     "id": "vatican-museums",
+     "name": "Vatican Museums & Sistine Chapel",
+     "name_ko": "바티칸 박물관·시스티나 성당",
+     "tags": [
+      "art",
+      "history",
+      "religion"
+     ],
+     "price": {
+      "min": 20,
+      "max": 25,
+      "currency": "EUR",
+      "unit": "per ticket",
+      "source": {
+       "url": "https://www.artvisitguide.com/vatican-museums-tickets-guide/",
+       "level": "snippet",
+       "date": "2026-10",
+       "query": "Vatican Museums ticket price 2026 euro online booking fee"
+      }
+     },
+     "hours": 3,
+     "reservation": true,
+     "tip_ko": "현장 €20, 온라인은 예약수수료 €5 포함 €25. 공식 예매처는 tickets.museivaticani.va, 매월 마지막 일요일 무료."
+    },
+    {
+     "id": "pantheon",
+     "name": "Pantheon",
+     "name_ko": "판테온",
+     "tags": [
+      "history",
+      "architecture",
+      "religion"
+     ],
+     "price": {
+      "min": 7,
+      "max": 7,
+      "currency": "EUR",
+      "unit": "per ticket",
+      "source": {
+       "url": "https://pantheon-rome.org/tickets/",
+       "level": "snippet",
+       "date": "2026-07",
+       "query": "Pantheon Rome ticket price 5 euro 2026"
+      }
+     },
+     "hours": 1,
+     "reservation": false,
+     "tip_ko": "2026년 7월 1일부터 일반권 €5→€7. 18세 미만 무료, EU 18-25세 €2."
+    },
+    {
+     "id": "borghese-gallery",
+     "name": "Galleria Borghese",
+     "name_ko": "보르게세 미술관",
+     "tags": [
+      "art"
+     ],
+     "price": {
+      "min": 18,
+      "max": 18,
+      "currency": "EUR",
+      "unit": "per ticket",
+      "source": {
+       "url": "https://www.artvisitguide.com/borghese-gallery-tickets-guide/",
+       "level": "snippet",
+       "date": "2026-10",
+       "query": "Borghese Gallery ticket price 2026 reservation required"
+      }
+     },
+     "hours": 2,
+     "reservation": true,
+     "tip_ko": "예약 필수(2시간 단위, 회당 180명, 워크인 불가). 성수기엔 3-4주 전에 매진."
+    },
+    {
+     "id": "trevi-fountain",
+     "name": "Trevi Fountain (basin area)",
+     "name_ko": "트레비 분수(분수대 앞 구역)",
+     "tags": [
+      "architecture",
+      "views"
+     ],
+     "price": {
+      "min": 2,
+      "max": 2,
+      "currency": "EUR",
+      "unit": "per ticket",
+      "source": {
+       "url": "https://www.npr.org/2026/02/03/g-s1-108471/trevi-fountain-fee-takes-effect",
+       "level": "snippet",
+       "date": "2026-02",
+       "query": "Trevi Fountain access fee 2 euro 2026"
+      }
+     },
+     "hours": 0.5,
+     "reservation": false,
+     "tip_ko": "2026-02-02부터 분수 바로 앞 아래 구역(09-22시)만 €2. 광장에서 보는 것은 무료."
+    }
+   ],
+   "restaurants": [],
+   "activities": [],
+   "concerns": [
+    {
+     "topic": "reservation",
+     "text_ko": "보르게세 미술관은 예약 없이 못 들어가고 성수기에는 3-4주 전에 표가 동난다.",
+     "source": {
+      "url": "https://www.artvisitguide.com/borghese-gallery-tickets-sold-out-guide/",
+      "level": "snippet",
+      "date": "2026-10",
+      "query": "Borghese Gallery ticket price 2026 reservation required"
+     }
+    },
+    {
+     "topic": "scam",
+     "text_ko": "레오나르도 익스프레스 같은 표를 재판매 사이트에서 사면 공식가(€14)보다 비싼 약 €17.90을 낸다. 공식 채널(트렌이탈리아)에서 살 것.",
+     "source": {
+      "url": "https://bluekeys.it/blog/fiumicino-rome-transfer-leonardo-express-train",
+      "level": "snippet",
+      "date": "2026-10",
+      "query": "Leonardo Express Fiumicino Termini price 2026 14 euro minutes"
+     }
+    },
+    {
+     "topic": "crowds",
+     "text_ko": "트레비 분수는 하루 약 3만 명, 많을 때 7만 명이 몰려 2026년부터 분수대 앞 구역 입장료 €2가 생겼다.",
+     "source": {
+      "url": "https://www.npr.org/2026/02/03/g-s1-108471/trevi-fountain-fee-takes-effect",
+      "level": "snippet",
+      "date": "2026-02",
+      "query": "Trevi Fountain access fee 2 euro 2026"
+     }
+    },
+    {
+     "topic": "transport",
+     "text_ko": "로마 대중교통 BIT 요금이 2026년 7월 €2.00으로 오를 예정이라는 계획이 있었으나 확정 여부는 출처마다 다르다. 현장 가격을 확인할 것.",
+     "source": {
+      "url": "https://migaku.com/blog/language-fun/atac-rome-public-transport-guide-tickets-apps-strikes",
+      "level": "snippet",
+      "date": "2026-10",
+      "query": "Rome BIT ticket 2 euro increase July 2026 ATAC confirmed"
+     }
+    }
+   ],
+   "reviews": []
+  },
+  {
+   "id": "florence",
+   "name": "Florence",
+   "name_ko": "피렌체",
+   "country": "IT",
+   "country_name": "Italy",
+   "country_ko": "이탈리아",
+   "tz": "Europe/Rome",
+   "currency": "EUR",
+   "lat": 43.77,
+   "lon": 11.26,
+   "min_nights": 2,
+   "best_months": [],
+   "lodging": {
+    "hostel": {
+     "min": 30,
+     "max": 50,
+     "currency": "EUR",
+     "unit": "per night",
+     "source": {
+      "url": "https://www.florence-trip.com/guides/florence-trip-cost-budget/",
+      "level": "snippet",
+      "date": "2026-10",
+      "query": "Florence travel budget 2026 hostel bed price mid-range hotel per night food per day"
+     }
+    },
+    "mid": {
+     "min": 120,
+     "max": 220,
+     "currency": "EUR",
+     "unit": "per night",
+     "source": {
+      "url": "https://thebettervacation.com/florence/florence-trip-cost/",
+      "level": "snippet",
+      "date": "2026-10",
+      "query": "Florence travel budget 2026 hostel bed price mid-range hotel per night food per day"
+     }
+    },
+    "upscale": null
+   },
+   "food_per_day": {
+    "budget": {
+     "min": 25,
+     "max": 35,
+     "currency": "EUR",
+     "unit": "per day",
+     "source": {
+      "url": "https://www.machupicchu.org/florence-budget-guide-2026-complete-cost-breakdown.htm",
+      "level": "snippet",
+      "date": "2026-10",
+      "query": "Florence travel budget 2026 hostel bed price mid-range hotel per night food per day"
+     }
+    },
+    "mid": null,
+    "comfort": null
+   },
+   "transit": {
+    "day_cost": {
+     "min": 5.5,
+     "max": 5.5,
+     "currency": "EUR",
+     "unit": "per pass",
+     "source": {
+      "url": "https://www.florencedailynews.com/2026/06/17/florence-bus-and-tram-ticket-price-to-rise-to-e2-from-august-1-2026/",
+      "level": "snippet",
+      "date": "2026-08",
+      "query": "Florence bus ticket price 2026 Autolinee Toscane 90 minutes 24 hour"
+     }
+    },
+    "pass": null,
+    "airport": {
+     "name": "Tram T2 (Airport - Alamanni/Santa Maria Novella)",
+     "price": {
+      "min": 2,
+      "max": 2,
+      "currency": "EUR",
+      "unit": "per ride",
+      "source": {
+       "url": "https://www.florencedailynews.com/2026/06/17/florence-bus-and-tram-ticket-price-to-rise-to-e2-from-august-1-2026/",
+       "level": "snippet",
+       "date": "2026-08",
+       "query": "Florence bus ticket price 2026 Autolinee Toscane 90 minutes 24 hour"
+      }
+     },
+     "minutes": 20
+    },
+    "notes_ko": "2026-08-01부터 버스·트램 90분권 €2.00(기존 €1.70), 차내 구매 €3.00, 10회권 €18.20. 구권은 2027-01-31까지 유효. 중심부는 대부분 걸어서 다닌다."
+   },
+   "attractions": [
+    {
+     "id": "uffizi",
+     "name": "Uffizi Gallery",
+     "name_ko": "우피치 미술관",
+     "tags": [
+      "art",
+      "history"
+     ],
+     "price": {
+      "min": 25,
+      "max": 29,
+      "currency": "EUR",
+      "unit": "per ticket",
+      "source": {
+       "url": "https://www.artvisitguide.com/uffizi-gallery-florence-tickets-guide/",
+       "level": "snippet",
+       "date": "2026-10",
+       "query": "Uffizi Gallery ticket price 2026 high season low season euro"
+      }
+     },
+     "hours": 3,
+     "reservation": true,
+     "tip_ko": "2026년부터 성수기·비수기 구분 없이 현장 €25, 온라인 €29(예약 €4). 16시 이후 입장권 €16(온라인 €20), 매월 첫 일요일 무료."
+    },
+    {
+     "id": "accademia",
+     "name": "Galleria dell'Accademia (David)",
+     "name_ko": "아카데미아 미술관(다비드상)",
+     "tags": [
+      "art"
+     ],
+     "price": {
+      "min": 16,
+      "max": 20,
+      "currency": "EUR",
+      "unit": "per ticket",
+      "source": {
+       "url": "https://www.artvisitguide.com/accademia-gallery-florence-tickets-guide/",
+       "level": "snippet",
+       "date": "2026-10",
+       "query": "Accademia Gallery Florence David ticket price 2026"
+      }
+     },
+     "hours": 1.5,
+     "reservation": true,
+     "tip_ko": "현장 €16, 온라인 €20(예약 €4). 4-10월엔 현장표가 오전 중 매진되기 쉽다."
+    },
+    {
+     "id": "duomo-brunelleschi",
+     "name": "Duomo complex - Brunelleschi Pass (dome climb)",
+     "name_ko": "두오모·브루넬레스키 돔",
+     "tags": [
+      "architecture",
+      "religion",
+      "views"
+     ],
+     "price": {
+      "min": 30,
+      "max": 35,
+      "currency": "EUR",
+      "unit": "per pass",
+      "source": {
+       "url": "https://www.florenz.info/en/brunelleschi-pass/",
+       "level": "snippet",
+       "date": "2026-10",
+       "query": "Florence Duomo Brunelleschi Pass price 2026 dome climb reservation"
+      }
+     },
+     "hours": 3,
+     "reservation": true,
+     "tip_ko": "돔·종탑·세례당·박물관·산타 레파라타 포함, 3일 유효. 돔 시간대는 구매 시 지정하고 변경 불가. 출처마다 €30/€35로 다름."
+    },
+    {
+     "id": "pitti-boboli",
+     "name": "Palazzo Pitti & Boboli Gardens",
+     "name_ko": "피티 궁전·보볼리 정원",
+     "tags": [
+      "art",
+      "history",
+      "nature"
+     ],
+     "price": {
+      "min": 22,
+      "max": 22,
+      "currency": "EUR",
+      "unit": "per ticket",
+      "source": {
+       "url": "https://www.coopculture.it/en/products/palazzo-pitti-entrance-ticket/",
+       "level": "snippet",
+       "date": "2026-10",
+       "query": "Palazzo Pitti Boboli Gardens ticket price 2026"
+      }
+     },
+     "hours": 3,
+     "reservation": false,
+     "tip_ko": "피티+보볼리 통합권 €22. 단독은 피티 €19(당일 현장 €16), 보볼리 €13(당일 현장 €10). 우피치 포함 5일 PassePartout €40."
+    }
+   ],
+   "restaurants": [],
+   "activities": [],
+   "concerns": [
+    {
+     "topic": "reservation",
+     "text_ko": "브루넬레스키 돔 오르기는 시간 지정이며 성수기엔 몇 주 전에 매진된다. 공식이 매진되면 다른 업체에서 €56-65에 팔린다.",
+     "source": {
+      "url": "https://www.european-traveler.com/italy/tickets-and-opening-hours-for-visiting-the-duomo-sights-in-florence/",
+      "level": "snippet",
+      "date": "2026-10",
+      "query": "Florence Duomo Brunelleschi Pass price 2026 dome climb reservation"
+     }
+    },
+    {
+     "topic": "crowds",
+     "text_ko": "아카데미아(다비드상)는 4-10월 성수기에 현장 당일표가 오전 중 매진되는 일이 많아 온라인 예약이 안전하다.",
+     "source": {
+      "url": "https://www.artvisitguide.com/accademia-gallery-florence-tickets-guide/",
+      "level": "snippet",
+      "date": "2026-10",
+      "query": "Accademia Gallery Florence David ticket price 2026"
+     }
+    },
+    {
+     "topic": "transport",
+     "text_ko": "2026년 8월부터 피렌체 버스·트램 요금이 €2.00으로 올랐고 차내에서 사면 €3.00이다. 미리 사 둘 것.",
+     "source": {
+      "url": "https://www.florencedailynews.com/2026/06/17/florence-bus-and-tram-ticket-price-to-rise-to-e2-from-august-1-2026/",
+      "level": "snippet",
+      "date": "2026-08",
+      "query": "Florence bus ticket price 2026 Autolinee Toscane 90 minutes 24 hour"
+     }
+    }
+   ],
+   "reviews": []
+  },
+  {
+   "id": "prague",
+   "name": "Prague",
+   "name_ko": "프라하",
+   "country": "CZ",
+   "country_name": "Czechia",
+   "country_ko": "체코",
+   "tz": "Europe/Prague",
+   "currency": "CZK",
+   "lat": 50.09,
+   "lon": 14.42,
+   "min_nights": 2,
+   "best_months": [],
+   "lodging": {
+    "hostel": {
+     "min": 350,
+     "max": 600,
+     "currency": "CZK",
+     "unit": "per night",
+     "source": {
+      "url": "https://www.machupicchu.org/prague-travel-guide-2026-ultimate-planning-resource.htm",
+      "level": "snippet",
+      "date": "2026-10",
+      "query": "Prague travel budget 2026 hostel dorm CZK per night hotel price food per day"
+     }
+    },
+    "mid": {
+     "min": 1800,
+     "max": 2800,
+     "currency": "CZK",
+     "unit": "per night",
+     "source": {
+      "url": "https://nexttripradar.com/blog/prague-budget-guide/",
+      "level": "snippet",
+      "date": "2026-10",
+      "query": "Prague travel budget 2026 hostel dorm CZK per night hotel price food per day"
+     }
+    },
+    "upscale": {
+     "min": 2200,
+     "max": 3000,
+     "currency": "CZK",
+     "unit": "per night",
+     "source": {
+      "url": "https://www.jetsetteralerts.com/cost-to-visit-prague/",
+      "level": "snippet",
+      "date": "2026-10",
+      "query": "Prague travel budget 2026 hostel dorm CZK per night hotel price food per day"
+     }
+    }
+   },
+   "food_per_day": {
+    "budget": {
+     "min": 300,
+     "max": 500,
+     "currency": "CZK",
+     "unit": "per day",
+     "source": {
+      "url": "https://www.machupicchu.org/prague-travel-guide-2026-ultimate-planning-resource.htm",
+      "level": "snippet",
+      "date": "2026-10",
+      "query": "Prague travel budget 2026 hostel dorm CZK per night hotel price food per day"
+     }
+    },
+    "mid": null,
+    "comfort": null
+   },
+   "transit": {
+    "day_cost": {
+     "min": 140,
+     "max": 150,
+     "currency": "CZK",
+     "unit": "per pass",
+     "source": {
+      "url": "https://pid.cz/en/new-pid-tariff-from-1-january-2026-dont-pay-more-than-you-have-to/",
+      "level": "snippet",
+      "date": "2026-01",
+      "query": "Prague public transport ticket price 2026 24-hour 30 minute CZK PID"
+     }
+    },
+    "pass": null,
+    "airport": {
+     "name": "Trolleybus 59 + Metro A (via Nádraží Veleslavín)",
+     "price": {
+      "min": 50,
+      "max": 50,
+      "currency": "CZK",
+      "unit": "per ride",
+      "source": {
+       "url": "https://www.prg.aero/en/how-much-public-transport-ticket-city-centre",
+       "level": "snippet",
+       "date": "2026-10",
+       "query": "Prague airport to city bus 59 Airport Express price 2026 CZK minutes"
+      }
+     },
+     "minutes": 45
+    },
+    "notes_ko": "2026-01-01 새 요금: 30분권 앱 36/종이 39 CZK, 90분권 46/50, 24시간권 140/150 CZK(앱이 더 쌈). 공항 익스프레스(AE) 버스는 중앙역까지 200 CZK, 약 40분."
+   },
+   "attractions": [
+    {
+     "id": "prague-castle",
+     "name": "Prague Castle (Main Circuit)",
+     "name_ko": "프라하 성",
+     "tags": [
+      "history",
+      "architecture",
+      "views",
+      "religion"
+     ],
+     "price": {
+      "min": 450,
+      "max": 450,
+      "currency": "CZK",
+      "unit": "per ticket",
+      "source": {
+       "url": "https://www.timetravelturtle.com/czech-republic/visit-prague-castle/",
+       "level": "snippet",
+       "date": "2026-10",
+       "query": "Prague Castle ticket price 2026 CZK circuit"
+      }
+     },
+     "hours": 3,
+     "reservation": false,
+     "tip_ko": "구왕궁·성 이르지 성당·황금소로·성 비투스 대성당 포함, 2일 연속 유효. 대성당 탑 전망대는 별도 200 CZK."
+    },
+    {
+     "id": "jewish-museum",
+     "name": "Jewish Museum in Prague",
+     "name_ko": "프라하 유대인 박물관",
+     "tags": [
+      "history",
+      "religion",
+      "culture"
+     ],
+     "price": {
+      "min": 550,
+      "max": 750,
+      "currency": "CZK",
+      "unit": "per ticket",
+      "source": {
+       "url": "https://www.jewishmuseum.cz/en/info/visit/admission/",
+       "level": "snippet",
+       "date": "2026-10",
+       "query": "Jewish Museum in Prague ticket price 2026 CZK"
+      }
+     },
+     "hours": 2.5,
+     "reservation": false,
+     "tip_ko": "5곳 통합권 550 CZK, 구신 시나고그까지 포함하면 750 CZK. 15세 미만 무료."
+    },
+    {
+     "id": "old-town-hall",
+     "name": "Old Town Hall & Astronomical Clock tower",
+     "name_ko": "구시청사·천문시계 탑",
+     "tags": [
+      "history",
+      "views"
+     ],
+     "price": {
+      "min": 350,
+      "max": 350,
+      "currency": "CZK",
+      "unit": "per ticket",
+      "source": {
+       "url": "https://www.prague-trip.com/tickets-and-passes/old-town-hall-tickets/",
+       "level": "snippet",
+       "date": "2026-10",
+       "query": "Old Town Hall Prague astronomical clock tower ticket price CZK 2026"
+      }
+     },
+     "hours": 1,
+     "reservation": false,
+     "tip_ko": "매일 개장 첫 1시간 매표소 얼리버드 50% 할인(175 CZK). 정시 사도 행렬은 광장에서 무료로 본다."
+    },
+    {
+     "id": "charles-bridge",
+     "name": "Charles Bridge",
+     "name_ko": "카를교",
+     "tags": [
+      "history",
+      "architecture",
+      "views"
+     ],
+     "price": {
+      "min": 0,
+      "max": 0,
+      "currency": "CZK",
+      "unit": "per ticket",
+      "source": {
+       "url": "https://www.nomadotravel.app/en/attractions/charles-bridge",
+       "level": "snippet",
+       "date": "2026-10",
+       "query": "Charles Bridge Prague free pickpockets crowds early morning tips"
+      }
+     },
+     "hours": 0.5,
+     "reservation": false,
+     "tip_ko": "무료 보행자 다리. 사람 없는 다리를 보려면 오전 5-7시나 밤 11시 이후."
+    }
+   ],
+   "restaurants": [],
+   "activities": [
+    {
+     "name": "Official guided tour of the Jewish Museum",
+     "name_ko": "유대인 박물관 공식 가이드 투어",
+     "tags": [
+      "history",
+      "culture"
+     ],
+     "price": {
+      "min": 1000,
+      "max": 1000,
+      "currency": "CZK",
+      "unit": "per person",
+      "source": {
+       "url": "https://www.jewishmuseum.cz/en/info/visit/guided-tours/",
+       "level": "snippet",
+       "date": "2026-10",
+       "query": "Jewish Museum in Prague ticket price 2026 CZK"
+      }
+     },
+     "hours": null
+    }
+   ],
+   "concerns": [
+    {
+     "topic": "scam",
+     "text_ko": "카를교는 프라하에서 가장 붐비는 곳이라 소매치기가 많다. 대치 없이 주의를 끌어 슬쩍하는 방식이라 지갑·휴대폰은 앞주머니나 지퍼 가방에.",
+     "source": {
+      "url": "https://community.ricksteves.com/travel-forum/czech/prague-pickpockets",
+      "level": "snippet",
+      "date": "2026-10",
+      "query": "Charles Bridge Prague free pickpockets crowds early morning tips"
+     }
+    },
+    {
+     "topic": "crowds",
+     "text_ko": "카를교는 오전 10시부터 밤 9시까지 관광객으로 꽉 찬다. 한산한 때는 새벽 5-7시나 밤 11시 이후.",
+     "source": {
+      "url": "https://www.nomads-travel-guide.com/places/charles-bridge/",
+      "level": "snippet",
+      "date": "2026-10",
+      "query": "Charles Bridge Prague free pickpockets crowds early morning tips"
+     }
+    },
+    {
+     "topic": "transport",
+     "text_ko": "2026년부터 대중교통 요금이 올랐고 종이표가 앱보다 비싸다(24시간권 150 vs 140 CZK). 앱 구매가 유리.",
+     "source": {
+      "url": "https://www.expats.cz/czech-news/article/single-use-tickets-and-fines-on-prague-public-transport-to-surge",
+      "level": "snippet",
+      "date": "2026-01",
+      "query": "Prague public transport ticket price 2026 24-hour 30 minute CZK PID"
+     }
+    }
+   ],
+   "reviews": [
+    {
+     "about": "Charles Bridge",
+     "sentiment": "pos",
+     "summary_ko": "트립어드바이저 리뷰 제목 그대로 '이른 아침이 붐빔을 피할 최적의 시간'이라는 평. (제목만 확인, 본문 미확인)",
+     "source": {
+      "url": "https://www.tripadvisor.com/ShowUserReviews-g274707-d275157-r616318585-Charles_Bridge-Prague_Bohemia.html",
+      "level": "snippet",
+      "date": "2026-10",
+      "query": "Charles Bridge Prague free pickpockets crowds early morning tips"
+     }
+    }
+   ]
+  },
+  {
+   "id": "vienna",
+   "name": "Vienna",
+   "name_ko": "빈",
+   "country": "AT",
+   "country_name": "Austria",
+   "country_ko": "오스트리아",
+   "tz": "Europe/Vienna",
+   "currency": "EUR",
+   "lat": 48.21,
+   "lon": 16.37,
+   "min_nights": 2,
+   "best_months": [],
+   "lodging": {
+    "hostel": {
+     "min": 20,
+     "max": 45,
+     "currency": "EUR",
+     "unit": "per night",
+     "source": {
+      "url": "https://twoscotsabroad.com/is-vienna-expensive-2026/",
+      "level": "snippet",
+      "date": "2026-10",
+      "query": "Vienna travel cost 2026 hostel bed price per night mid-range hotel daily food budget euro"
+     }
+    },
+    "mid": {
+     "min": 110,
+     "max": 220,
+     "currency": "EUR",
+     "unit": "per night",
+     "source": {
+      "url": "https://twoscotsabroad.com/is-vienna-expensive-2026/",
+      "level": "snippet",
+      "date": "2026-10",
+      "query": "Vienna travel cost 2026 hostel bed price per night mid-range hotel daily food budget euro"
+     }
+    },
+    "upscale": null
+   },
+   "food_per_day": {
+    "budget": {
+     "min": 25,
+     "max": 35,
+     "currency": "EUR",
+     "unit": "per day",
+     "source": {
+      "url": "https://www.machupicchu.org/vienna-budget-guide-2026-complete-cost-breakdown-planning.htm",
+      "level": "snippet",
+      "date": "2026-10",
+      "query": "Vienna travel cost 2026 hostel bed price per night mid-range hotel daily food budget euro"
+     }
+    },
+    "mid": {
+     "min": 50,
+     "max": 70,
+     "currency": "EUR",
+     "unit": "per day",
+     "source": {
+      "url": "https://www.machupicchu.org/vienna-budget-guide-2026-complete-cost-breakdown-planning.htm",
+      "level": "snippet",
+      "date": "2026-10",
+      "query": "Vienna travel cost 2026 hostel bed price per night mid-range hotel daily food budget euro"
+     }
+    },
+    "comfort": null
+   },
+   "transit": {
+    "day_cost": {
+     "min": 9.7,
+     "max": 10.2,
+     "currency": "EUR",
+     "unit": "per pass",
+     "source": {
+      "url": "https://ubahnwien.com/en/tickets-and-prices/",
+      "level": "snippet",
+      "date": "2026-01",
+      "query": "Vienna public transport 24-hour ticket price 2026 Wiener Linien single ticket"
+     }
+    },
+    "pass": null,
+    "airport": {
+     "name": "ÖBB S7 / Railjet (airport - Wien Mitte / Hauptbahnhof)",
+     "price": {
+      "min": 5.4,
+      "max": 5.4,
+      "currency": "EUR",
+      "unit": "per ride",
+      "source": {
+       "url": "https://www.vienna-spirit.com/guides/cat-vs-railjet-vs-bus-airport/",
+       "level": "snippet",
+       "date": "2026-10",
+       "query": "Vienna airport City Airport Train CAT price 2026 S7 Railjet price minutes"
+      }
+     },
+     "minutes": 23
+    },
+    "notes_ko": "1회권 €3.20(디지털 €3.00), 24시간권 €10.20(디지털 €9.70). 48·72시간권은 2026-01-01 폐지. CAT 공항열차(€14.90)는 2027년 10월경까지 공사로 버스 대체 운행."
+   },
+   "attractions": [
+    {
+     "id": "schoenbrunn",
+     "name": "Schönbrunn Palace (Palace Ticket)",
+     "name_ko": "쇤브룬 궁전",
+     "tags": [
+      "history",
+      "architecture",
+      "nature"
+     ],
+     "price": {
+      "min": 38,
+      "max": 44,
+      "currency": "EUR",
+      "unit": "per ticket",
+      "source": {
+       "url": "https://www.artvisitguide.com/schonbrunn-palace-tickets-2026/",
+       "level": "snippet",
+       "date": "2026-10",
+       "query": "Schönbrunn Palace Grand Tour ticket price 2026 euro"
+      }
+     },
+     "hours": 3,
+     "reservation": true,
+     "tip_ko": "구 'Grand Tour'가 'Palace Ticket'(€38, 약 75분 관람)으로 바뀜. 정원 명소 포함 Classic Pass €44. 시간지정 입장."
+    },
+    {
+     "id": "upper-belvedere",
+     "name": "Upper Belvedere (Klimt's The Kiss)",
+     "name_ko": "벨베데레 상궁(클림트 '키스')",
+     "tags": [
+      "art",
+      "architecture"
+     ],
+     "price": {
+      "min": 23,
+      "max": 23,
+      "currency": "EUR",
+      "unit": "per ticket",
+      "source": {
+       "url": "https://www.belvedere.at/en/visit/upper-belvedere",
+       "level": "snippet",
+       "date": "2026-10",
+       "query": "Belvedere Upper ticket price 2026 Klimt Kiss euro"
+      }
+     },
+     "hours": 2,
+     "reservation": false,
+     "tip_ko": "성인 €23, 19세 미만 무료. 상·하궁 통합 €32."
+    },
+    {
+     "id": "khm",
+     "name": "Kunsthistorisches Museum",
+     "name_ko": "빈 미술사 박물관",
+     "tags": [
+      "art",
+      "history"
+     ],
+     "price": {
+      "min": 22,
+      "max": 24,
+      "currency": "EUR",
+      "unit": "per ticket",
+      "source": {
+       "url": "https://thebettervacation.com/vienna/kunsthistorisches-museum-official-website/",
+       "level": "snippet",
+       "date": "2026-10",
+       "query": "Kunsthistorisches Museum Vienna ticket price 2026"
+      }
+     },
+     "hours": 3,
+     "reservation": false,
+     "tip_ko": "온라인 €22, 현장 €24, 19세 미만 무료. 오디오가이드 €6."
+    },
+    {
+     "id": "stephansdom",
+     "name": "St. Stephen's Cathedral (all-inclusive)",
+     "name_ko": "슈테판 대성당",
+     "tags": [
+      "religion",
+      "architecture",
+      "views",
+      "history"
+     ],
+     "price": {
+      "min": 29,
+      "max": 29,
+      "currency": "EUR",
+      "unit": "per ticket",
+      "source": {
+       "url": "https://www.stephanskirche.at/info.php",
+       "level": "snippet",
+       "date": "2026-10",
+       "query": "St. Stephen's Cathedral Vienna all-inclusive ticket price 2026"
+      }
+     },
+     "hours": 2,
+     "reservation": false,
+     "tip_ko": "올인클루시브 €29: 오디오가이드·남북 탑·카타콤 투어·대성당 박물관 포함, 1년 유효."
+    }
+   ],
+   "restaurants": [],
+   "activities": [
+    {
+     "name": "Vienna State Opera standing-room ticket",
+     "name_ko": "빈 국립오페라 입석 관람",
+     "tags": [
+      "culture",
+      "nightlife"
+     ],
+     "price": {
+      "min": 13,
+      "max": 18,
+      "currency": "EUR",
+      "unit": "per ticket",
+      "source": {
+       "url": "https://www.viennatourism.org/vienna-state-opera-guide/",
+       "level": "snippet",
+       "date": "2026-10",
+       "query": "Vienna State Opera standing tickets price 2026"
+      }
+     },
+     "hours": 3
+    }
+   ],
+   "concerns": [
+    {
+     "topic": "transport",
+     "text_ko": "CAT 공항열차가 개보수로 2027년 10월경까지 운행하지 않고 버스로 대체된다. S7·Railjet(€5.40)이 더 싸고 빠르다.",
+     "source": {
+      "url": "https://www.viennatourism.org/vienna-airport-to-city-center/",
+      "level": "snippet",
+      "date": "2026-10",
+      "query": "Vienna airport City Airport Train CAT price 2026 S7 Railjet price minutes"
+     }
+    },
+    {
+     "topic": "transport",
+     "text_ko": "48·72시간권이 2026-01-01부로 폐지돼 여러 날이면 24시간권을 여러 장 사거나 7일권을 봐야 한다.",
+     "source": {
+      "url": "https://ubahnwien.com/en/tickets-and-prices/",
+      "level": "snippet",
+      "date": "2026-01",
+      "query": "Vienna public transport 24-hour ticket price 2026 Wiener Linien single ticket"
+     }
+    },
+    {
+     "topic": "reservation",
+     "text_ko": "오페라 입석표(567석)는 공연 당일에만 판매한다: 온라인 또는 10시 이후 매표소, 일부는 공연 80분 전 입석 매표소.",
+     "source": {
+      "url": "https://www.wiener-staatsoper.at/en/ticket-info/",
+      "level": "snippet",
+      "date": "2026-10",
+      "query": "Vienna State Opera standing tickets price 2026"
+     }
+    }
+   ],
+   "reviews": []
+  },
+  {
+   "id": "berlin",
+   "name": "Berlin",
+   "name_ko": "베를린",
+   "country": "DE",
+   "country_name": "Germany",
+   "country_ko": "독일",
+   "tz": "Europe/Berlin",
+   "currency": "EUR",
+   "lat": 52.52,
+   "lon": 13.4,
+   "min_nights": 3,
+   "best_months": [],
+   "lodging": {
+    "hostel": {
+     "min": 30,
+     "max": 60,
+     "currency": "EUR",
+     "unit": "per night",
+     "source": {
+      "url": "https://www.berlinwalk.com/post/is-berlin-expensive-a-realistic-daily-budget-for-2026-tourists",
+      "level": "snippet",
+      "date": "2026-10",
+      "query": "Berlin travel cost 2026 hostel dorm price per night hotel mid-range food per day euro"
+     }
+    },
+    "mid": {
+     "min": 90,
+     "max": 130,
+     "currency": "EUR",
+     "unit": "per night",
+     "source": {
+      "url": "https://www.berlinwalk.com/post/is-berlin-expensive-a-realistic-daily-budget-for-2026-tourists",
+      "level": "snippet",
+      "date": "2026-10",
+      "query": "Berlin travel cost 2026 hostel dorm price per night hotel mid-range food per day euro"
+     }
+    },
+    "upscale": {
+     "min": 160,
+     "max": 250,
+     "currency": "EUR",
+     "unit": "per night",
+     "source": {
+      "url": "https://www.berlinwalk.com/post/is-berlin-expensive-a-realistic-daily-budget-for-2026-tourists",
+      "level": "snippet",
+      "date": "2026-10",
+      "query": "Berlin travel cost 2026 hostel dorm price per night hotel mid-range food per day euro"
+     }
+    }
+   },
+   "food_per_day": {
+    "budget": null,
+    "mid": null,
+    "comfort": null
+   },
+   "transit": {
+    "day_cost": {
+     "min": 11.2,
+     "max": 11.2,
+     "currency": "EUR",
+     "unit": "per pass",
+     "source": {
+      "url": "https://www.berlintourism.org/bvg-tickets-berlin/",
+      "level": "snippet",
+      "date": "2026-10",
+      "query": "Berlin BVG ticket prices 2026 single AB 24 hour ticket BER airport ABC"
+     }
+    },
+    "pass": {
+     "name": "24-hour ticket ABC",
+     "price": {
+      "min": 12.9,
+      "max": 12.9,
+      "currency": "EUR",
+      "unit": "per pass",
+      "source": {
+       "url": "https://www.berlintourism.org/bvg-tickets-berlin/",
+       "level": "snippet",
+       "date": "2026-10",
+       "query": "Berlin BVG ticket prices 2026 single AB 24 hour ticket BER airport ABC"
+      }
+     },
+     "covers": "AB+C구역(BER 공항 포함) 24시간"
+    },
+    "airport": {
+     "name": "BER airport - city (ABC single ticket)",
+     "price": {
+      "min": 5,
+      "max": 5,
+      "currency": "EUR",
+      "unit": "per ride",
+      "source": {
+       "url": "https://www.berlintourism.org/bvg-tickets-berlin/",
+       "level": "snippet",
+       "date": "2026-10",
+       "query": "Berlin BVG ticket prices 2026 single AB 24 hour ticket BER airport ABC"
+      }
+     },
+     "minutes": null
+    },
+    "notes_ko": "1회권 AB €4.00, ABC €5.00. BER 공항은 C구역이라 ABC 표가 필요. 24시간권 AB €11.20 / ABC €12.90."
+   },
+   "attractions": [
+    {
+     "id": "reichstag-dome",
+     "name": "Reichstag Dome",
+     "name_ko": "독일 연방의회 돔",
+     "tags": [
+      "architecture",
+      "history",
+      "views"
+     ],
+     "price": {
+      "min": 0,
+      "max": 0,
+      "currency": "EUR",
+      "unit": "per ticket",
+      "source": {
+       "url": "https://www.berlinwalk.com/post/how-to-visit-the-reichstag-dome-for-free-and-why-you-should-book-now",
+       "level": "snippet",
+       "date": "2026-10",
+       "query": "Reichstag dome visit free registration required Berlin"
+      }
+     },
+     "hours": 1.5,
+     "reservation": true,
+     "tip_ko": "무료지만 visite.bundestag.de 사전 등록 필수(3개월 전 오픈, 성수기 4-6주 전 마감). 신분증 지참."
+    },
+    {
+     "id": "museum-island",
+     "name": "Museum Island day ticket (Neues Museum - Nefertiti, etc.)",
+     "name_ko": "박물관 섬(신 박물관 네페르티티 등)",
+     "tags": [
+      "art",
+      "history"
+     ],
+     "price": {
+      "min": 14,
+      "max": 24,
+      "currency": "EUR",
+      "unit": "per ticket",
+      "source": {
+       "url": "https://www.artvisitguide.com/museum-island-berlin-guide/",
+       "level": "snippet",
+       "date": "2026-10",
+       "query": "Pergamon Museum Berlin closed until 2027 Museum Island ticket price 2026"
+      }
+     },
+     "hours": 4,
+     "reservation": true,
+     "tip_ko": "개별 박물관 €14, 섬 1일권 €24(열린 4곳+페르가몬 파노라마). 페르가몬 본관은 2027-06-04 재개관 예정. 18세 미만 무료지만 표 예약 필요."
+    },
+    {
+     "id": "berlin-wall-memorial",
+     "name": "Berlin Wall Memorial (Bernauer Strasse)",
+     "name_ko": "베를린 장벽 기념관",
+     "tags": [
+      "history"
+     ],
+     "price": {
+      "min": 0,
+      "max": 0,
+      "currency": "EUR",
+      "unit": "per ticket",
+      "source": {
+       "url": "https://www.berlinwalk.com/post/berlin-wall-memorial-bernauer-strasse",
+       "level": "snippet",
+       "date": "2026-10",
+       "query": "Berlin Wall Memorial Bernauer Strasse free entry East Side Gallery free"
+      }
+     },
+     "hours": 2,
+     "reservation": false,
+     "tip_ko": "야외 구역 매일 08-22시 무료. 기록센터·전망탑은 화-일 10-18시, 월요일 휴관."
+    },
+    {
+     "id": "east-side-gallery",
+     "name": "East Side Gallery",
+     "name_ko": "이스트 사이드 갤러리",
+     "tags": [
+      "art",
+      "history"
+     ],
+     "price": {
+      "min": 0,
+      "max": 0,
+      "currency": "EUR",
+      "unit": "per ticket",
+      "source": {
+       "url": "https://www.berlintourism.org/berlin-wall-sites-memorials/",
+       "level": "snippet",
+       "date": "2026-10",
+       "query": "Berlin Wall Memorial Bernauer Strasse free entry East Side Gallery free"
+      }
+     },
+     "hours": 1,
+     "reservation": false,
+     "tip_ko": "슈프레 강변 1.3km 장벽 벽화, 남은 장벽 중 가장 긴 구간. 24시간 무료."
+    }
+   ],
+   "restaurants": [],
+   "activities": [],
+   "concerns": [
+    {
+     "topic": "closure",
+     "text_ko": "페르가몬 박물관 본관은 2023년 10월부터 닫혀 2027-06-04 재개관 예정이고, 이슈타르 문은 2030년대 후반에야 다시 볼 수 있다.",
+     "source": {
+      "url": "https://www.european-traveler.com/germany/visit-pergamon-museum-ishtar-gate-berlin/",
+      "level": "snippet",
+      "date": "2026-10",
+      "query": "Pergamon Museum Berlin closed until 2027 Museum Island ticket price 2026"
+     }
+    },
+    {
+     "topic": "reservation",
+     "text_ko": "연방의회 돔은 무료지만 사전 등록이 필수이고 성수기엔 4-6주 전에 찬다. 남은 자리는 현장 방문자센터에서 2시간 전까지 배정.",
+     "source": {
+      "url": "https://www.berlinwalk.com/post/how-to-visit-the-reichstag-dome-for-free-and-why-you-should-book-now",
+      "level": "snippet",
+      "date": "2026-10",
+      "query": "Reichstag dome visit free registration required Berlin"
+     }
+    },
+    {
+     "topic": "transport",
+     "text_ko": "BER 공항은 C구역이라 AB 표로 타면 무임승차가 된다. ABC 표(€5.00)를 살 것.",
+     "source": {
+      "url": "https://www.berlintourism.org/bvg-tickets-berlin/",
+      "level": "snippet",
+      "date": "2026-10",
+      "query": "Berlin BVG ticket prices 2026 single AB 24 hour ticket BER airport ABC"
+     }
+    },
+    {
+     "topic": "reservation",
+     "text_ko": "신 박물관(네페르티티)은 일일 입장 제한으로 여름에 자주 매진되니 smb.museum에서 최소 1주 전 예약.",
+     "source": {
+      "url": "https://www.berlin-escape.com/guides/neues-museum-nefertiti/",
+      "level": "snippet",
+      "date": "2026-10",
+      "query": "Neues Museum Berlin Nefertiti ticket price 2026"
+     }
+    }
+   ],
+   "reviews": []
+  }
+ ],
+ "edges": [
+  {
+   "from": "rome",
+   "to": "florence",
+   "mode": "train",
+   "hours": 1.5,
+   "price": {
+    "min": 14.9,
+    "max": 50,
+    "currency": "EUR",
+    "unit": "per person",
+    "source": {
+     "url": "https://www.florencetourism.org/rome-to-florence/",
+     "level": "snippet",
+     "date": "2026-10",
+     "query": "Rome to Florence Frecciarossa Italo price 2026 euro 1h30 duration"
+    }
+   },
+   "frequency_ko": "프레차로사·이탈로 고속열차 다수(정확한 편수 미확인)",
+   "notes_ko": "로마 테르미니-피렌체 SMN 약 1시간 12-25분. 60-90일 전 예약 시 €14.90-20, 당일 €50 이상."
+  },
+  {
+   "from": "berlin",
+   "to": "prague",
+   "mode": "train",
+   "hours": 4.3,
+   "price": {
+    "min": 18.9,
+    "max": 75,
+    "currency": "EUR",
+    "unit": "per person",
+    "source": {
+     "url": "https://www.railpassguide.com/en/routes/berlin-to-prague",
+     "level": "snippet",
+     "date": "2026-10",
+     "query": "Berlin to Prague train price 2026 EC duration 4 hours euro"
+    }
+   },
+   "frequency_ko": "EuroCity 직통 하루 6회",
+   "notes_ko": "약 4시간 15-30분. 조기 예약 €18.90-35, 당일 €75 이상."
+  },
+  {
+   "from": "prague",
+   "to": "vienna",
+   "mode": "train",
+   "hours": 4.0,
+   "price": {
+    "min": 15,
+    "max": 80,
+    "currency": "EUR",
+    "unit": "per person",
+    "source": {
+     "url": "https://bestpragueguide.com/en/blog/prague-to-vienna-train",
+     "level": "snippet",
+     "date": "2026-10",
+     "query": "Prague to Vienna train price 2026 Railjet RegioJet duration euro"
+    }
+   },
+   "frequency_ko": "ÖBB Railjet 약 2시간 간격 + RegioJet 하루 2-4회",
+   "notes_ko": "Railjet 약 4시간, RegioJet 약 4시간 15분. 조기 €15-20, 당일 Railjet €60-80, RegioJet은 당일도 대개 €40 이하."
+  },
+  {
+   "from": "vienna",
+   "to": "rome",
+   "mode": "night_train",
+   "hours": 14,
+   "price": {
+    "min": 39,
+    "max": 189,
+    "currency": "EUR",
+    "unit": "per person",
+    "source": {
+     "url": "https://nachtzug.net/en/vienna-rome/",
+     "level": "snippet",
+     "date": "2026-10",
+     "query": "Nightjet Vienna Rome price 2026 seat couchette sleeper from euro duration"
+    }
+   },
+   "frequency_ko": "ÖBB 나이트젯 야간 직행(편수 미확인)",
+   "notes_ko": "좌석 €39~, 쿠셋 €79~, 침대칸 €189~(날짜·예약시점에 따라 변동). 약 14시간. 항공편 정보는 미수집."
+  }
+ ],
+ "gaps": [
+  "TOOLING: WebFetch was blocked by the egress proxy for every domain tried (colosseo.it, uffizi.it, nightjet.com, pid.cz, jewishmuseum.cz, prague.eu, coopculture.it, turismoroma.it, wikipedia). So EVERY source is level 'snippet'; zero 'full'.",
+  "TOOLING: the session-wide WebSearch budget (200) ran out partway through, so the rest of the research below was never done.",
+  "ATTRIBUTION: snippet numbers come from search-engine summaries that list several URLs together. Each source.url is the listed result whose title or topic best matches the number, but the exact page-to-number mapping could not be checked by fetching it.",
+  "source.date: when the source gave no month, '2026-10' (the research month) is used. Only Trevi (2026-02), the Pantheon change (2026-07), PID/Wiener Linien tariffs (2026-01) and the Florence fares (2026-08) carry dated months.",
+  "best_months left empty for all 5 cities: no source collected.",
+  "min_nights values (rome 3, florence 2, prague 2, vienna 2, berlin 3) and every attraction 'hours' (visit length) are editorial planning estimates, not sourced. Schönbrunn's ~75 min palace viewing is the only sourced duration.",
+  "Restaurants: none collected for any city (search budget exhausted).",
+  "Reviews: only 1 (Charles Bridge, from a TripAdvisor review title only, body not read). Rome, Florence, Vienna and Berlin have 0.",
+  "Activities: only 2 (Prague Jewish Museum guided tour, Vienna Opera standing room). Rome, Florence and Berlin have none. The Jewish Museum tour duration is unknown (hours=null).",
+  "Lodging upscale missing for rome, florence, vienna. food_per_day comfort missing everywhere; mid missing for florence and prague; all Berlin food_per_day missing (only per-meal figures found).",
+  "Berlin BER airport transfer minutes not found (minutes=null).",
+  "Rome BIT single ticket: sources disagree on whether the planned July 2026 rise from €1.50 to €2.00 happened. 24h/48h/72h prices (8.50/15/22) are from a 2026 guide that may predate any change.",
+  "Pantheon €7 is the announced price from 2026-07-01 (it was €5 before). The price was not seen on a page dated after July.",
+  "Brunelleschi Pass: sources disagree, €30 vs €35.",
+  "Prague mid vs upscale hotel ranges come from different guides and overlap (1800-2800 vs 2200-3000 CZK).",
+  "Vatican Museums: whether the Holy Year/2026 hours changed was not checked.",
+  "Missing intra-region edges: vienna-florence and berlin-vienna. The vienna-rome flight option was not researched either; only the Nightjet edge is included.",
+  "Missing ALL cross-region edges: paris-rome (flight), barcelona-rome (flight), amsterdam-berlin (train), paris-berlin (train/flight), london-rome (flight). None were researched.",
+  "Nightjet Vienna-Rome prices (39/79/189) and 14h came from a search summary over several night-train sites. They were not checked on nightjet.com.",
+  "Edge frequencies for rome-florence and vienna-rome were not confirmed."
+ ]
+}
